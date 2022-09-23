@@ -28,6 +28,24 @@
 ### Instructions
 - Install Unity on your laptop or get Unity going on the lab computers. 
     - You will also need to go to Edit | Preferences and set the External Script Viewer to be VS Code
+    - To get Unity running on the lab computers:
+        Open File Explorer (Win Key + E)
+
+        Navigate to D:\Downloads\
+
+        In this folder you will find two files relating to unity
+        Check-Unity-License.bat
+        License-Unity.bat
+
+        As the file names suggest
+
+                    File 1 (Check-Unity-License.bat) will check and display the Unity license, if it exists on the machine.  Always run this file first.  If no license exists, run file 2
+
+                    File 2 (License-Unity.bat) will license Unity on the current machine for all users.  It takes a few seconds to run and gives no feed back apart from the busy icon for a few seconds. 
+
+                    If in doubt that you ran file 2 or not; just run file 1 again to verify, as it should now display a valid license
+
+        You can now start Unity from the Desktop.  It takes ages to start, so be patient.
 - Create an account on github if you don't already have one and be sure to set up a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) as this is what you will have to use as a password now 
 - Fork the repository for the course (click the fork button above)
 - Clone the repository and cd into the folder  you cloned:
