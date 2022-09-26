@@ -1,4 +1,4 @@
-# Games Engines 1 Assignment 2021-2022
+# Games Engines 1 Assignment 2022-2023
 
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
 
@@ -31,13 +31,19 @@ Becomes:
 
 ## Assignment brief
 
-Your assignment is to create an impressive, beautiful and awe inspiring system in Unity by using procedural generation. Paint a picture in code. Your aim is to wow me. It should look like a tech demo or some of the beautiful visuals that you might see at an electronic music event. Check these out for examples:
+Its the future as imagined from 1972. The "six million dollar man", astronaut Steve Austin is hanging out with the bionic woman and Rex the bionic dog in his sci-fi home. Steve's red jumpsuit is unzipped a few inches at the lapels revealing his manly chest hair. Underneath his chest hair is skin and underneath his skin are the bionic muscles and organs that give him his super human abilities.  
+
+"Wow", he thinks "This is groovy. I remember my a test flight accident and thought I would never fly again. Then I got bionic implants from Oscar Goldman at OSI. Now here I am in my home of future from the 1970's on a mountain overlooking LA with a swimming pool. My house is filled with robots, talking computers with personalities and other cool sci-fi technology. I have bionic speed, strength and sight and I spend my days going on cool missions like helping visitors from other planets and protecting people from bigfoot. I have a hot bionic girlfriend with her own career as a school teacher in addition to being an agent for the OSI and a bionic dog called Rex". 
+
+Steve reclines in chair and contemplates the code displayed on the computer terminal in front of him which is connected by phone link to the OSI mainframe computer. He is working on a magnificent holographic artwork projected from holo-projectors in the center of the room. he is  
+
+In the center of the room is Steve's project. It's a magnificent computer generated holographic artwork . He programmed it himself on the houses mainframe. Its so cool. Steve loves to watch it flow and pulse as he chills listening to 1970's chillout music with the bionic woman on rex on the sheepskin rug by the open holographic fireplace.  
+
 
 [2020-2021 Assignment playlist](https://www.youtube.com/watch?v=MXm9OmzRe2o&list=PL1n0B6z4e_E5qaYwUOlJ63XI2OR9ty7Bs)
 
 [2019-2020 Assignment playlist](https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X)
 
-You should aim to create the effect of your project through produral means and I encourage you to make everything in this assignment yourself. If you want to use 3D models you should create them yourself. The only exception is audio. If you find a beautiful piece of music that you need for your demo you can go ahead and use it.
 
 Also check out the [Procedural generation reddit forum](https://www.reddit.com/r/proceduralgeneration/)
 
