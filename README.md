@@ -1,22 +1,30 @@
-# TU856/TU857/TU858/TU984 Games Engines 1 2022-2023
+# TU856/TU857/TU858/TU984 Games Engines 1 2022-2023 
 
 [![Video](http://img.youtube.com/vi/NMDupdv85FE/0.jpg)](http://www.youtube.com/watch?NMDupdv85FE)
 
 ## Resources
+- [Facebook page for the class]()
+- [Join the class on Teams Friday 14:00 - 16:00](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWNkOTU5MWMtZGRkYi00ZDIxLWI3NzAtZjFjMjc3Y2NiMmVl%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
 - [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
 - [Assignment](assignment.md)
-- [Unity Tutorials](https://unity3d.com/learn/tutorials) 
-- [GDC Vault](http://www.gdcvault.com/)
-- [Game Maths tutorials](http://www.wildbunny.co.uk/blog/vector-maths-a-primer-for-games-programmers/)
+- [Unity Quick Reference](unityref.md)
+- [Markdown Tutorial](assignmentreadme.md)
+- [git Tutorial](gitlab.md)
 
 ## Contact me
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 2 - Trigonometry & Vectors in Unity
+- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ## Week 1 - Introduction
 
 ## Lecture
+
+- [Introduction Slides]()
+- [Recording of the class]()
+
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ### Learning Outcomes
