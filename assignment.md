@@ -1,4 +1,22 @@
-# Games Engines 1 Assignment 2022-2023
+# Games Engines 1 Assignment 2022-2023 - The Six Million Dollar Man's Lava Lamp
+
+Your task is to create a hologram of an appliance or artwork from a futuristic home of the future as imagined from 1970's sci-fi. Some examples:
+
+- The six million dollar mans lava lamp
+- A self playing guitar or piano
+- A volcano
+- A fire place with futuristic effects
+- A harry potter style book or picture that comes to life
+- An alien in a jar
+- AN R2D2 type robot
+- An abstract audio responsive artwork
+- An octopus in a tank
+- A futuristic machine with lots of lights and moving parts
+ 
+Here are some retro vintage sci-fi references you can Google 
+
+- Space 1999
+- 
 
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
 
