@@ -1,23 +1,70 @@
-# TU856/TU857/TU858/TU984 Games Engines 1 2022-2023
+# TU856/TU857/TU858/TU984 Games Engines 1 2022-2023 
 
 [![Video](http://img.youtube.com/vi/NMDupdv85FE/0.jpg)](http://www.youtube.com/watch?NMDupdv85FE)
 
 ## Resources
+- [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWNkOTU5MWMtZGRkYi00ZDIxLWI3NzAtZjFjMjc3Y2NiMmVl%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
 - [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
 - [Assignment](assignment.md)
-- [Unity Tutorials](https://unity3d.com/learn/tutorials) 
-- [GDC Vault](http://www.gdcvault.com/)
-- [Game Maths tutorials](http://www.wildbunny.co.uk/blog/vector-maths-a-primer-for-games-programmers/)
+- [Unity Quick Reference](unityref.md)
+- [Markdown Tutorial](assignmentreadme.md)
+- [git Tutorial](gitlab.md)
 
 ## Contact me
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 2 - Trigonometry & Vectors in Unity
+- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+
+### Lab 
+
+## Learning Outcomes
+- Make a procedural system in Unity
+- Use trigonometry and vectors
+- Use the Unity Editor & VS Code
+- Make commits on your repo
+- Use the Unity API's
+
+For assessment purposes:
+- Create a branch off master called lab2
+- Attempt the lab exercise below
+- Make at least two commits on the branch before Thursday 6th October
+
+
+Here is a video of what you can make today (click the image for the video):
+
+[![YouTube](http://img.youtube.com/vi/tL6ux8isdgY/0.jpg)](https://www.youtube.com/watch?v=tL6ux8isdgY)
+
+
+You can open the scene Lab1 and put your solution here. 
+- Create a dodecahedron prefab (from the model in the project) and set the material
+- Attach the RotateMe script and add code to it
+- Add code to the Generator script to instantiate the dodecahedrons from the prefab you made
+
+I suggest you try and make a single circle of dodecahedrons first and then use a nested loop to make all the circles. You will be using the following Unity API calls in your solution:
+
+```C#
+Mathf.Sin(angle)
+Mathf.Cos(angle)
+GameObject.Instantiate()
+transform.Rotate()
+```
+
+You will also need to know about the [Unit circle](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:unit-circle/v/unit-circle-definition-of-trig-functions-1) and also how to [calculate the circumference of a circle](https://www.wikihow.com/Calculate-the-Circumference-of-a-Circle)
+
+```bash
+git add .
+git commit -m "message"
+git push
+```
 
 ## Week 1 - Introduction
 
 ## Lecture
-- [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+
+- [Introduction Slides](https://tudublin-my.sharepoint.com/:p:/g/personal/bryan_duggan_tudublin_ie/EdrNh-GMMW1Esv3VTsNExNsBY_sSMZKGPorMZMwoXr5PMg?e=kRiy2u)
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Efgca4KOjHFImpviNv39nBQBQl7s0fk-RUbCUKozO12_rQ?e=UlSvJX)
 
 ### Learning Outcomes
 - Install Unity & git for Windows
@@ -74,34 +121,7 @@ git checkout -b mylab1
 ```
 
 - Now launch Unity and see if you can open the scene we made in class today and run it.
-- If you are experienced at using Unity, here is a video of something you can try and make today (click the image for the video):
 
-[![YouTube](http://img.youtube.com/vi/tL6ux8isdgY/0.jpg)](https://www.youtube.com/watch?v=tL6ux8isdgY)
+Make some changes and do a final commit
 
-
-You can open the scene Lab1 and put your solution here. 
-- Create a dodecahedron prefab and set the material
-- Attach the RotateMe script and add code to it
-- Add code to the Generator script to instantiate the dodecahedrons from the prefab you made
-
-I suggest you try and make a single circle of dodecahedrons first and then use a nested loop to make all the circles. You can use the dodecahedron model in the assets folder and you can use ColorMaterial on the dodecahedrons. You will be using the following Unity API calls in your solution:
-
-```C#
-Mathf.Sin(angle)
-Mathf.Cos(angle)
-GameObject.Instantiate()
-transform.Rotate()
-```
-
-You will also need to know about the [Unit circle](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:unit-circle/v/unit-circle-definition-of-trig-functions-1) and also how to [calculate the circumference of a circle](https://www.wikihow.com/Calculate-the-Circumference-of-a-Circle)
-
-- Commit your changes and push them to your own mylab1 branch. You will have to set the upstream remote the first commit you make onto the branch
-
-```bash
-git add .
-git commit -m "message"
-git push
-```
-
-Don't worry if you cant figure it out! It's only the first week and I will do through the solution in the class next week :-)
-
+[Submit the link to your fork](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUMUZWTzVSQldVVVpONDBFTTdYQUtNWExNTC4u)
