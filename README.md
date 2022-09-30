@@ -20,20 +20,29 @@
 ### Lab 
 
 ## Learning Outcomes
+- Make a procedural system in Unity
+- Use trigonometry and vectors
+- Use the Unity Editor & VS Code
+- Make commits on your repo
+- Use the Unity API's
+
+For assessment purposes:
+- Create a branch off master called lab2
+- Attempt the lab exercise below
+- Make at least two commits on the branch before Thursday 6th October
 
 
-
-- If you are experienced at using Unity, here is a video of something you can try and make today (click the image for the video):
+Here is a video of what you can make today (click the image for the video):
 
 [![YouTube](http://img.youtube.com/vi/tL6ux8isdgY/0.jpg)](https://www.youtube.com/watch?v=tL6ux8isdgY)
 
 
 You can open the scene Lab1 and put your solution here. 
-- Create a dodecahedron prefab and set the material
+- Create a dodecahedron prefab (from the model in the project) and set the material
 - Attach the RotateMe script and add code to it
 - Add code to the Generator script to instantiate the dodecahedrons from the prefab you made
 
-I suggest you try and make a single circle of dodecahedrons first and then use a nested loop to make all the circles. You can use the dodecahedron model in the assets folder and you can use ColorMaterial on the dodecahedrons. You will be using the following Unity API calls in your solution:
+I suggest you try and make a single circle of dodecahedrons first and then use a nested loop to make all the circles. You will be using the following Unity API calls in your solution:
 
 ```C#
 Mathf.Sin(angle)
@@ -44,17 +53,11 @@ transform.Rotate()
 
 You will also need to know about the [Unit circle](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:unit-circle/v/unit-circle-definition-of-trig-functions-1) and also how to [calculate the circumference of a circle](https://www.wikihow.com/Calculate-the-Circumference-of-a-Circle)
 
-- Commit your changes and push them to your own mylab1 branch. You will have to set the upstream remote the first commit you make onto the branch
-
 ```bash
 git add .
 git commit -m "message"
 git push
 ```
-
-Don't worry if you cant figure it out! It's only the first week and I will do through the solution in the class next week :-)
-
-
 
 ## Week 1 - Introduction
 
