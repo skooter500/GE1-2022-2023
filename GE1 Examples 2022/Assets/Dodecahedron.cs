@@ -6,10 +6,10 @@ public class Dodecahedron : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
 
-    [SerializeField] int loops = 8;
-    int n = 0;
+    [SerializeField] int loops = 5;
     float circumference;
     float radius;
+    int s = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +17,12 @@ public class Dodecahedron : MonoBehaviour
             loops--;
             radius = loops/2;
             circumference = 2 * Mathf.PI * radius;
-            n = (int) (circumference / (2*0.5));
+            s = (int) (circumference / (2*0.5));
         }
+
+        transform.GetChild(0).gameObject.GetComponent<Renderer>().material.color = Color.HSVToRGB(1f, 1f, 1f);
+
+        radius--;
     }
 
     // Update is called once per frame
