@@ -14,7 +14,26 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
-## Week 3 - Trigonometry & Vectors in Unity
+## Week 3 - VR Development & building a wall
+- [The project we worked on in the class](https://github.com/skooter500/FormsHolograms)
+- [XR Setup in Unity](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/general-setup.html)
+
+## Lab
+Update your fork from master branch
+Create a branch called mylab3 for your work this week:
+
+Make this procedural animation using a harmonic function :-) (click the image for video):
+
+[![YouTube](http://img.youtube.com/vi/S8tj3v6dUbU/0.jpg)](http://www.youtube.com/watch?v=S8tj3v6dUbU)
+
+In your solution, you will use the following API's:
+
+```C#
+Mathf.Sin
+Quaternion.AngleAxis
+transform.localRotation
+```
+
 - [Trigonometry Problem Set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
 ## Week 2 - The Unity API's
