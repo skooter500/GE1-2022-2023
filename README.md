@@ -15,6 +15,7 @@
 * [My website & other ways to contact me](http://bryanduggan.org)
 
 ## Week 3 - VR Development & building a wall
+- [Recording of the class](https://tudublin-my.sharepoint.com/personal/bryan_duggan_tudublin_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbryan%5Fduggan%5Ftudublin%5Fie%2FDocuments%2FRecordings%2FGame%20Engines%20Class%2D20221007%5F140509%2DMeeting%20Recording%2Emp4&ga=1) 
 - [The project we worked on in the class](https://github.com/skooter500/FormsHolograms)
 - [XR Setup in Unity](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/general-setup.html)
 
