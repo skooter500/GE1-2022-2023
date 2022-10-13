@@ -16,7 +16,9 @@ Your task is to create a hologram of an appliance or artwork from a futuristic h
 Here are some retro vintage sci-fi references you can Google 
 
 - Space 1999
-- 
+- The Starlost
+- Star Trek
+
 
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
 
