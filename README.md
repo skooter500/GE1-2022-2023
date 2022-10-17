@@ -14,9 +14,11 @@
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
-## Week 4 Making Holograms: Tools to code the metaverse
+## Week 4 Making Holograms
 
-- [Last years class about vectors]()
+- [Video of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EdsUdViPIJBEhrnAJUqqY6MBFFo5sXp9iJQmbi-m8Gbjvw?e=ISlEGb)
+
+- [Last years class about vectors](https://github.com/skooter500/GE1-2021-2022#week-2---trigonometry--vectors-in-unity)
 
 ## Lab
 
