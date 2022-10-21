@@ -36,12 +36,11 @@ public class TankController : MonoBehaviour
         /*
         Vector3 p = transform.position;
         p += transform.forward * speed * Time.deltaTime;
+
         transform.position = p;
         */
 
         float r = tc.Ground.Rotate.ReadValue<float>();
-
-        Debug.Log("f: " + r);
 
         transform.Rotate(0, rotSpeed * r * Time.deltaTime, 0);
 
