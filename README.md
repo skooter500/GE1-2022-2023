@@ -4,7 +4,7 @@
 
 ## Resources
 - [World Videophone](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWNkOTU5MWMtZGRkYi00ZDIxLWI3NzAtZjFjMjc3Y2NiMmVl%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
--[Download Unity](https://unity3d.com/unity/whats-new/2022.1.14)
+- [Download Unity](https://unity3d.com/unity/whats-new/2022.1.14)
 - [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
 - [Assignment](assignment.md)
 - [Unity Quick Reference](unityref.md)
@@ -18,7 +18,7 @@
 ## Week 5 Input & movement
 - [Input System](https://youtu.be/m5WsmlEOFiA)
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeWPspFN9UhDiLsrblj0PbwBekugJqnOXmZjXvupEf_y1g?e=40tLsy)
-- [Repo with the code we worked on](https://github.com/skooter500/FormsHolograms))
+- [Repo with the code we worked on](https://github.com/skooter500/FormsHolograms)
 
 ## Week 4 Making Holograms
 
