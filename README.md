@@ -16,9 +16,9 @@
 * [My website & other ways to contact me](http://bryanduggan.org)
 
 ## Week 5 Input & movement
--[Input System](https://youtu.be/m5WsmlEOFiA)
--[Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeWPspFN9UhDiLsrblj0PbwBekugJqnOXmZjXvupEf_y1g?e=40tLsy)
--[Repo with the code we worked on](https://github.com/skooter500/FormsHolograms))
+- [Input System](https://youtu.be/m5WsmlEOFiA)
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeWPspFN9UhDiLsrblj0PbwBekugJqnOXmZjXvupEf_y1g?e=40tLsy)
+- [Repo with the code we worked on](https://github.com/skooter500/FormsHolograms))
 
 ## Week 4 Making Holograms
 
