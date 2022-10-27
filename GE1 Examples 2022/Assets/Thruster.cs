@@ -6,22 +6,25 @@ using UnityEngine.InputSystem;
 public class Thruster : MonoBehaviour
 {
     public InputActionProperty input;
-    public Transform thruster;
-    public float speed = 1.0f;
+    public Rigidbody player;
+    public float newtons = 1000.0f;
 
-    private Vector3 maxScale;
+    private float maxScale;
     // Use this for initialization
     void Start()
     {
-        maxScale = transform.localScale;
+        maxScale = transform.localScale.z;
     }
 
     // Update is called once per frame
     void Update()
     {
         float fire = input.action.ReadValue<float>();
-        Vector3 newScale = Vector3.Lerp(transform.localScale, maxScale * fire, Time.deltaTime * speed * 2);
-        transform.localScale = newScale;
+        float newScale = Mathf.Lerp(transform.localScale.z, maxScale * fire, Time.deltaTime);
+        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, newScale);
 
+        Vector3 f = transform.forward * fire * newtons * Time.deltaTime;
+        player.AddForce(-f);
+        
     }
 }
