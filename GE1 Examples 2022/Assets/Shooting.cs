@@ -10,7 +10,7 @@ public class Shooting : MonoBehaviour
 
     Coroutine shootCR = null;
 
-    public float fireRate = 10;
+    public float fireRate = 5;
 
     IEnumerator ShootCoroutine()
     {
@@ -18,7 +18,9 @@ public class Shooting : MonoBehaviour
         {
             GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
             bullet.transform.rotation = transform.rotation;
+            bullet.transform.forward = -bullet.transform.forward;
             bullet.transform.position = bulletSpawn.position;
+            bullet.GetComponent<AudioSource>().Play();
             yield return new WaitForSeconds(1 / (float)fireRate);
         }
     }

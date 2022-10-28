@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject.Destroy(this.gameObject, 5);
+        GameObject.Destroy(this.gameObject, 20);
     }
 
     public void OnCollisionEnter(Collision collision)
