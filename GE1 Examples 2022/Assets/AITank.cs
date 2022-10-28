@@ -9,7 +9,9 @@ public class AITank : MonoBehaviour
     public float radius = 5;
 
     public float speed;
+    public float fov;
 
+    public Transform player;
 
     void SetUpWaypoints()
     {
@@ -53,12 +55,35 @@ public class AITank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float dist = Vector3.Distance(transform.position, waypoints[current]);
+        Vector3 totarget = waypoints[current] - transform.position;
+        float dist = totarget.magnitude;
         if (dist < 1.0f)
         {
             current = (current + 1) % waypoints.Count;
         }
-        transform.LookAt(waypoints[current]);
-        transform.Translate(0, 0, speed * Time.deltaTime);
+        Quaternion q = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(totarget), Time.deltaTime);
+        //transform.rotation = q;
+        //transform.Translate(0, 0, speed * Time.deltaTime);
+
+        Vector3 toPlayer = player.position - transform.position;
+        toPlayer.Normalize();
+        float dot = Vector3.Dot(toPlayer, transform.forward);
+       
+        Debug.Log((dot > 0) ? "In front" : "behind");            
+        float angle = Mathf.Acos(dot) * Mathf.Rad2Deg;
+        Debug.Log(angle);
+        if (angle < 45)
+        {
+            Debug.Log("I casn see you");
+        }
+        else
+        {
+            Debug.Log("I cant see you");
+        }
+
+        float a = Vector3.AngleBetween(transform.forward, totarget);
+
+
+
     }
 }
