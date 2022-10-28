@@ -16,6 +16,9 @@ public class Thruster : MonoBehaviour
     {
         maxScale = transform.localScale.z;
         audioSource = GetComponent<AudioSource>();
+        audioSource.volume = 0;
+        transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, 0);
+
     }
 
     // Update is called once per frame
