@@ -1,21 +1,34 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class AITank : MonoBehaviour
+{
+    public List<Vector3> waypoints;
+    public int count = 5;
+    public float radius = 5;
 
-public class AITank : MonoBehaviour {
+    public float speed;
 
+<<<<<<< HEAD
     public float radius = 10;
     public int numWaypoints = 5;
     public int current = 0;
     public List<Vector3> waypoints = new List<Vector3>();
     public float speed = 10;
     public Transform player;    
+=======
+>>>>>>> b0e22f5cdd1412d252e7131cf7fb983d71476e71
 
-    public void OnDrawGizmos()
+    void SetUpWaypoints()
     {
-        if (!Application.isPlaying)
+        waypoints = new List<Vector3>();
+        waypoints.Clear();
+        float theta = (Mathf.PI * 2.0f) / (float) count;
+
+        for(int i = 0 ; i < count ; i ++)
         {
+<<<<<<< HEAD
             float theta = (Mathf.PI * 2.0f) / numWaypoints;
             for(int i = 0 ; i < numWaypoints ; i ++)
             {
@@ -25,10 +38,22 @@ public class AITank : MonoBehaviour {
                 Gizmos.color = Color.green;
                 Gizmos.DrawWireSphere(pos, 1); 
             }
+=======
+            float angle = i * theta;
+            Vector3 p = new Vector3
+                (
+                    Mathf.Sin(angle) * radius, 
+                    0,
+                    Mathf.Cos(angle) * radius
+                );
+            p = transform.TransformPoint(p);
+            waypoints.Add(p);
+>>>>>>> b0e22f5cdd1412d252e7131cf7fb983d71476e71
 
         }
     }
 
+<<<<<<< HEAD
     // Use this for initialization
     void Awake () {
         float theta = (Mathf.PI * 2.0f) / numWaypoints;
@@ -38,10 +63,28 @@ public class AITank : MonoBehaviour {
             Vector3 pos = new Vector3(Mathf.Sin(angle) * radius, 0, Mathf.Cos(angle) * radius);
             pos = transform.TransformPoint(pos);
             waypoints.Add(pos); 
+=======
+    void OnDrawGizmos()
+    {
+        SetUpWaypoints();
+        foreach(Vector3 v in waypoints)
+        {
+            Gizmos.DrawWireSphere(v, 0.5f);
+>>>>>>> b0e22f5cdd1412d252e7131cf7fb983d71476e71
         }
     }
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        SetUpWaypoints();
+
+    }
+
+    int current = 0;
+
     // Update is called once per frame
+<<<<<<< HEAD
     void Update () {
         Vector3 pos = transform.position;
         Vector3 toNext = waypoints[current] - pos;
@@ -79,5 +122,16 @@ public class AITank : MonoBehaviour {
         }
 
         float angle1 = Vector3.Angle(toPlayer, transform.forward);
+=======
+    void Update()
+    {
+        float dist = Vector3.Distance(transform.position, waypoints[current]);
+        if (dist < 1.0f)
+        {
+            current = (current + 1) % waypoints.Count;
+        }
+        transform.LookAt(waypoints[current]);
+        transform.Translate(0, 0, speed * Time.deltaTime);
+>>>>>>> b0e22f5cdd1412d252e7131cf7fb983d71476e71
     }
 }

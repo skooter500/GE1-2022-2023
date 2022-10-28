@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_EditorVersion: 2022.1.17f1
 m_EditorVersionWithRevision: 2022.1.17f1 (2d349551e475)
 =======
 m_EditorVersion: 2022.1.14f1
 m_EditorVersionWithRevision: 2022.1.14f1 (ff7e140968b4)
 >>>>>>> a35c9b5f3736d14b6a740c9c3f7a2f5096c7c91a
+=======
+m_EditorVersion: 2022.1.20f1
+m_EditorVersionWithRevision: 2022.1.20f1 (01d83b40d570)
+>>>>>>> b0e22f5cdd1412d252e7131cf7fb983d71476e71
