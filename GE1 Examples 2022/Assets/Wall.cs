@@ -17,7 +17,7 @@ public class Wall : MonoBehaviour
                 cube.transform.rotation = transform.rotation;                
                 cube.GetComponent<Renderer>().material.color =
                     Color.HSVToRGB( i * j / (float) (width * height), 1.0f, 1.0f); 
-                cube.AddComponent<Rigidbody>();
+                cube.AddComponent<Rigidbody>().useGravity = false;
                 cube.transform.parent = this.transform;
             }
         }
