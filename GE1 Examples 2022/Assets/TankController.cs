@@ -7,6 +7,11 @@ public class TankController : MonoBehaviour
 {
     private TankControls tc;
 
+    public GameObject bulletPrefab;
+    public Transform spawnPoint;
+
+    public float fireRate = 5;
+
     void Awake()
     {
         tc = new TankControls();
@@ -28,9 +33,6 @@ public class TankController : MonoBehaviour
     void Update()
     {
         float f = tc.Ground.Move.ReadValue<float>();
-
-        Debug.Log("f: " + f);
-
         transform.Translate(0, 0, speed * f * Time.deltaTime);
 
         /*
@@ -44,7 +46,27 @@ public class TankController : MonoBehaviour
 
         transform.Rotate(0, rotSpeed * r * Time.deltaTime, 0);
 
+        float b = tc.Ground.Shoot.ReadValue<float>();
+        GameManager.Log("Shooting: " + b);
 
+        if (b > 0.5f)
+        {
+            
+        }
+
+
+    }
+
+    public void Shoot(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed)
+        {
+            GameManager.Log("Shooting!!");
+        }
+        //Debug.Log(context.performed);
+        GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
+        bullet.transform.rotation = transform.rotation;
+        bullet.transform.position = spawnPoint.position;
     }
 
     void Start()
@@ -71,6 +93,8 @@ public class TankController : MonoBehaviour
     {
         float f = context.ReadValue<float>();
         Debug.Log(f);
+
+
     }
 
     /*

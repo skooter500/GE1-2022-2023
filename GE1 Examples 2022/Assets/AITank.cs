@@ -36,15 +36,18 @@ public class AITank : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        SetUpWaypoints();
-        foreach(Vector3 v in waypoints)
+        if (!Application.isPlaying)
         {
-            Gizmos.DrawWireSphere(v, 0.5f);
+            SetUpWaypoints();
+            foreach (Vector3 v in waypoints)
+            {
+                Gizmos.DrawWireSphere(v, 0.5f);
+            }
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+        // Start is called before the first frame update
+        void Start()
     {
         SetUpWaypoints();
 
@@ -69,21 +72,16 @@ public class AITank : MonoBehaviour
         toPlayer.Normalize();
         float dot = Vector3.Dot(toPlayer, transform.forward);
        
-        Debug.Log((dot > 0) ? "In front" : "behind");            
+        GameManager.Log((dot > 0) ? "In front" : "behind");            
         float angle = Mathf.Acos(dot) * Mathf.Rad2Deg;
         Debug.Log(angle);
         if (angle < 45)
         {
-            Debug.Log("I casn see you");
+            GameManager.Log("I can see you");
         }
         else
         {
-            Debug.Log("I cant see you");
+            GameManager.Log("I can't see you");
         }
-
-        float a = Vector3.AngleBetween(transform.forward, totarget);
-
-
-
     }
 }
