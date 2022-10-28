@@ -13,6 +13,7 @@ public class Wall : MonoBehaviour
             for(int i = 0 ; i < width ; i ++)
             {
                 GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                cube.tag = "brick";
                 cube.transform.position = transform.TransformPoint(new Vector3(i, j, 0));
                 cube.transform.rotation = transform.rotation;                
                 cube.GetComponent<Renderer>().material.color =

@@ -11,6 +11,19 @@ public class Bullet : MonoBehaviour
         GameObject.Destroy(this.gameObject, 5);
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "brick")
+        {
+            GameObject.Destroy(this.gameObject);
+            GameObject.Destroy(collision.gameObject);
+            Debug.Log("Explosion");
+
+        }
+    }
+
+
+
     // Update is called once per frame
     void Update()
     {

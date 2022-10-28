@@ -47,26 +47,38 @@ public class TankController : MonoBehaviour
         transform.Rotate(0, rotSpeed * r * Time.deltaTime, 0);
 
         float b = tc.Ground.Shoot.ReadValue<float>();
-        GameManager.Log("Shooting: " + b);
-
-        if (b > 0.5f)
-        {
-            
-        }
-
+        //GameManager.Log("Shooting: " + b);
 
     }
 
+    IEnumerator ShootCoroutine()
+    {
+        while (true)
+        {
+            GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
+            bullet.transform.rotation = transform.rotation;
+            bullet.transform.position = spawnPoint.position;
+            yield return new WaitForSeconds(1 / (float)fireRate);
+        }
+    }
+
+
+    Coroutine shootCR = null;
     public void Shoot(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Performed)
+        Debug.Log(context);
+        if (context.phase == InputActionPhase.Started && shootCR == null)
         {
-            GameManager.Log("Shooting!!");
+            shootCR = StartCoroutine(ShootCoroutine());
         }
+        if (context.phase == InputActionPhase.Canceled)
+        {
+            StopCoroutine(shootCR);
+            shootCR = null;
+        }
+
+
         //Debug.Log(context.performed);
-        GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
-        bullet.transform.rotation = transform.rotation;
-        bullet.transform.position = spawnPoint.position;
     }
 
     void Start()
@@ -75,12 +87,6 @@ public class TankController : MonoBehaviour
         Vector3 b = new Vector3(11, 8, 0);
 
         Vector3 c = b - a;
-
-        Debug.Log(c);
-        Debug.Log(c.magnitude);
-
-        Debug.Log(Vector3.Normalize(c));
-
         float theta = 90 + Mathf.Atan(c.y / c.x) * Mathf.Rad2Deg;
 
         Debug.Log(theta);

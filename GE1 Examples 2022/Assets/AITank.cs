@@ -74,7 +74,6 @@ public class AITank : MonoBehaviour
        
         GameManager.Log((dot > 0) ? "In front" : "behind");            
         float angle = Mathf.Acos(dot) * Mathf.Rad2Deg;
-        Debug.Log(angle);
         if (angle < 45)
         {
             GameManager.Log("I can see you");
