@@ -20,7 +20,9 @@ public class Shooting : MonoBehaviour
             bullet.transform.rotation = transform.rotation;
             bullet.transform.forward = -bullet.transform.forward;
             bullet.transform.position = bulletSpawn.position;
+            bullet.GetComponent<AudioSource>().pitch = Random.Range(0.7f, 1.3f);
             bullet.GetComponent<AudioSource>().Play();
+
             yield return new WaitForSeconds(1 / (float)fireRate);
         }
     }
