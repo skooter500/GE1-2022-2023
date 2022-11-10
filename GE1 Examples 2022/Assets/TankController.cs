@@ -7,6 +7,11 @@ public class TankController : MonoBehaviour
 {
     private TankControls tc;
 
+    public GameObject bulletPrefab;
+    public Transform spawnPoint;
+
+    public float fireRate = 5;
+
     void Awake()
     {
         tc = new TankControls();
@@ -28,9 +33,6 @@ public class TankController : MonoBehaviour
     void Update()
     {
         float f = tc.Ground.Move.ReadValue<float>();
-
-        Debug.Log("f: " + f);
-
         transform.Translate(0, 0, speed * f * Time.deltaTime);
 
         /*
@@ -44,7 +46,39 @@ public class TankController : MonoBehaviour
 
         transform.Rotate(0, rotSpeed * r * Time.deltaTime, 0);
 
+        float b = tc.Ground.Shoot.ReadValue<float>();
+        //GameManager.Log("Shooting: " + b);
 
+    }
+
+    IEnumerator ShootCoroutine()
+    {
+        while (true)
+        {
+            GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
+            bullet.transform.rotation = transform.rotation;
+            bullet.transform.position = spawnPoint.position;
+            yield return new WaitForSeconds(1 / (float)fireRate);
+        }
+    }
+
+
+    Coroutine shootCR = null;
+    public void Shoot(InputAction.CallbackContext context)
+    {
+        Debug.Log(context);
+        if (context.phase == InputActionPhase.Started && shootCR == null)
+        {
+            shootCR = StartCoroutine(ShootCoroutine());
+        }
+        if (context.phase == InputActionPhase.Canceled)
+        {
+            StopCoroutine(shootCR);
+            shootCR = null;
+        }
+
+
+        //Debug.Log(context.performed);
     }
 
     void Start()
@@ -53,12 +87,6 @@ public class TankController : MonoBehaviour
         Vector3 b = new Vector3(11, 8, 0);
 
         Vector3 c = b - a;
-
-        Debug.Log(c);
-        Debug.Log(c.magnitude);
-
-        Debug.Log(Vector3.Normalize(c));
-
         float theta = 90 + Mathf.Atan(c.y / c.x) * Mathf.Rad2Deg;
 
         Debug.Log(theta);
@@ -71,6 +99,8 @@ public class TankController : MonoBehaviour
     {
         float f = context.ReadValue<float>();
         Debug.Log(f);
+
+
     }
 
     /*

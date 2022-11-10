@@ -17,6 +17,8 @@
 
 ## Week 6 - Coroutines & colliders
 
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERufxBuE88VGscScnzHgW14Bv9a62oR_LFbY2rxpVmpj5w?e=1HhpRE)
+
 ## Lab
 
 Update your fork and create a branch called lab6

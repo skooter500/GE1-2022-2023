@@ -44,6 +44,15 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Shoot"",
+                    ""type"": ""Button"",
+                    ""id"": ""67e3dd01-57dd-447b-a7c9-8780b5f0579c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -178,6 +187,17 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                     ""action"": ""Rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1e8b8423-e12c-411d-8446-a5057cce48c6"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -188,6 +208,7 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
         m_Ground = asset.FindActionMap("Ground", throwIfNotFound: true);
         m_Ground_Move = m_Ground.FindAction("Move", throwIfNotFound: true);
         m_Ground_Rotate = m_Ground.FindAction("Rotate", throwIfNotFound: true);
+        m_Ground_Shoot = m_Ground.FindAction("Shoot", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -249,12 +270,14 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
     private IGroundActions m_GroundActionsCallbackInterface;
     private readonly InputAction m_Ground_Move;
     private readonly InputAction m_Ground_Rotate;
+    private readonly InputAction m_Ground_Shoot;
     public struct GroundActions
     {
         private @TankControls m_Wrapper;
         public GroundActions(@TankControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Ground_Move;
         public InputAction @Rotate => m_Wrapper.m_Ground_Rotate;
+        public InputAction @Shoot => m_Wrapper.m_Ground_Shoot;
         public InputActionMap Get() { return m_Wrapper.m_Ground; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -270,6 +293,9 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                 @Rotate.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnRotate;
                 @Rotate.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnRotate;
                 @Rotate.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnRotate;
+                @Shoot.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
+                @Shoot.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
+                @Shoot.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
             }
             m_Wrapper.m_GroundActionsCallbackInterface = instance;
             if (instance != null)
@@ -280,6 +306,9 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                 @Rotate.started += instance.OnRotate;
                 @Rotate.performed += instance.OnRotate;
                 @Rotate.canceled += instance.OnRotate;
+                @Shoot.started += instance.OnShoot;
+                @Shoot.performed += instance.OnShoot;
+                @Shoot.canceled += instance.OnShoot;
             }
         }
     }
@@ -288,5 +317,6 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnRotate(InputAction.CallbackContext context);
+        void OnShoot(InputAction.CallbackContext context);
     }
 }
