@@ -1,7 +1,6 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TankController : MonoBehaviour
 {
@@ -34,13 +33,6 @@ public class TankController : MonoBehaviour
     {
         float f = tc.Ground.Move.ReadValue<float>();
         transform.Translate(0, 0, speed * f * Time.deltaTime);
-
-        /*
-        Vector3 p = transform.position;
-        p += transform.forward * speed * Time.deltaTime;
-
-        transform.position = p;
-        */
 
         float r = tc.Ground.Rotate.ReadValue<float>();
 
@@ -103,40 +95,13 @@ public class TankController : MonoBehaviour
 
     }
 
-    /*
-    private TankControls tc;
-    // Start is called before the first frame update
-    void Start()
+    private class TankControls
     {
-        // Add listenets to events
-        tc.Land.Shoot.started += Shoot;
-    }
+        internal readonly object Ground;
 
-    void Awake()
-    {
-        tc = new TankControls();
+        internal void Enable()
+        {
+            throw new NotImplementedException();
+        }
     }
-
-    void Shoot(InputAction.CallbackContext context)
-    {
-
-    }
-
-    void OnEnable()
-    {
-        tc.Enable();
-    }
-
-    void OnDisable()
-    {
-        tc.Disable();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float f = tc.Land.Move.ReadValue<float>();
-        Debug.Log(f);
-    }
-    */
 }
