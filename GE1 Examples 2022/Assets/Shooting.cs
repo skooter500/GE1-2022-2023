@@ -1,51 +1,45 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Shooting : MonoBehaviour
 {
-    public GameObject bulletPrefab;
-    public Transform bulletSpawn;
+    public Transform spawnPoint;
+    public GameObject bulletPrefab; 
 
-    Coroutine shootCR = null;
-
-    public float fireRate = 5;
-
-    IEnumerator ShootCoroutine()
-    {
-        while (true)
-        {
-            GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
-            bullet.transform.rotation = transform.rotation;
-            bullet.transform.forward = -bullet.transform.forward;
-            bullet.transform.position = bulletSpawn.position;
-            bullet.GetComponent<AudioSource>().pitch = Random.Range(0.5f, 3.0f);
-            bullet.GetComponent<AudioSource>().Play();
-
-            yield return new WaitForSeconds(1 / (float)fireRate);
-        }
-    }
-    public void Shoot(InputAction.CallbackContext context)
-    {
-        if (context.phase == InputActionPhase.Started && shootCR == null)
-        {
-            shootCR = StartCoroutine(ShootCoroutine());
-        }
-        if (context.phase == InputActionPhase.Canceled)
-        {
-            StopCoroutine(shootCR);
-            shootCR = null;
-        }
-
-
-        //Debug.Log(context.performed);
-    }
+    public float fireRate = 3;
 
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    void Shoot()
+    {
+        GameObject bullet = GameObject.Instantiate<GameObject>(bulletPrefab);
+        bullet.transform.position = spawnPoint.position;
+        bullet.transform.rotation = this.transform.rotation;
+    }
+
+    void OnEnable()
+    {
+        StartCoroutine(ShootingCoroutine());
+    }
+
+    bool shooting = false;
+
+    System.Collections.IEnumerator ShootingCoroutine()
+    {
+        while(true)
+        {
+            if (Input.GetButton("Fire1"))
+            {
+                Shoot();
+                yield return new WaitForSeconds(1.0f / fireRate);
+            }
+            yield return null;
+        }
     }
 
     // Update is called once per frame
