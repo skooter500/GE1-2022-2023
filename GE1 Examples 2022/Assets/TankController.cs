@@ -39,10 +39,8 @@ public class TankController : MonoBehaviour
         transform.Rotate(0, rotSpeed * r * Time.deltaTime, 0);
 
         float b = tc.Ground.Shoot.ReadValue<float>();
-        //GameManager.Log("Shooting: " + b);
 
     }
-
     IEnumerator ShootCoroutine()
     {
         while (true)
