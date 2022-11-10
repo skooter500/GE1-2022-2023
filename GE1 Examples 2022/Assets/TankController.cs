@@ -48,7 +48,6 @@ public class TankController : MonoBehaviour
 
         float b = tc.Ground.Shoot.ReadValue<float>();
         //GameManager.Log("Shooting: " + b);
-
     }
 
     IEnumerator ShootCoroutine()
