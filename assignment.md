@@ -21,16 +21,13 @@ Some ideas:
 
 [![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
 
-https://www.youtube.com/watch?v=
+- This cool thing from Joe 90:
 
-- This device for downloading knowledge to your brain:
-
-https://www.youtube.com/watch?v=oaINLn4OKGE
+[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
 
 - The teleporter from the movie "the Fly"
 
-https://www.youtube.com/watch?v=sTq2Im2YUOk
-
+[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
 
