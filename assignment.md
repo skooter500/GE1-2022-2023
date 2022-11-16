@@ -1,24 +1,13 @@
-# Games Engines 1 Assignment 2022-2023 - The Six Million Dollar Man's Lava Lamp
+# Games Engines 1 Assignment 2022-2023 
+## The Six Million Dollar Man's Lava Lamp
 
 ![Lava Lamp](images/1411580558_The_six_million_dollar_man_s_Lava_Lamp__retro_vintage_bionics_psychedelic__comic_book_style_.png)
 
-Your task is to create an interactive hologram of a cool thing inspired by vintage sci-fi. 
+## The Brief 
 
-You can use [ProBuilder](https://unity.com/features/probuilder) or [Blender](https://www.blender.org/) to make your models, or like me, create everything from primitives or procedurally. Another option is to [use AI](https://www.youtube.com/watch?v=ooSW5kcA6gI). We will deploy the holograms to the Quest. You can use any of built in stuff in Unity, such as particle effects, shaders, sound, the animation system and C# scripts. Your hologram should move or have and have behavior and interaction. You can use source code and assets from other projects, but you must reference these in your documentation (see [here](assignmentreadme.md) for a template).
+Use Unity or a Game Engine of your choice to create an interactive hologram of a cool thing inspired by devices and technology from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Knight Rider.  
 
 Some ideas:
-
-- This thing for holding the Medusan Ambassador from Star Trek:
-
-[![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
-
-- This cool thing from Joe 90:
-
-[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
-
-- The teleporter from the movie "the Fly"
-
-[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
 - The six million dollar mans lava lamp
 - A self playing guitar or piano
@@ -34,7 +23,25 @@ Some ideas:
 - A giant talking head
 - A futuristic machine with lots of lights and moving parts
 
-Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md)
+- This thing for holding the Medusan Ambassador from Star Trek:
+
+[![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
+
+- This cool thing from Joe 90:
+
+[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
+
+- The teleporter from the movie "the Fly"
+
+[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
+
+Watch any vintage sci-fi show you will get lots of ideas. The more nostalgic, cool and nerdy the better.
+
+Check out this video of people going crazy (including myself) for the Knight Rider car:
+
+![Knight Rider](https://photos.app.goo.gl/gqpCMHJu5SNbWjj89)
+
+Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md).
 
 # Due dates:
 - Week 8 - Proposal & git repo - [Submit proposal here](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u)
