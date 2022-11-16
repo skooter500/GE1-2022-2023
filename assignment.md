@@ -5,7 +5,7 @@
 
 ## The Brief 
 
-Create an interactive hologram of a cool device from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Knight Rider.  
+Create an interactive hologram of a cool device from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Space 1999, 2001: A Space Odyssey, Knight Rider, Thunderbirds, Flash Gordon, Back to the Future etc. etc. Anything from 60's 70's and early 80's. 
 
 Some ideas:
 
@@ -35,13 +35,13 @@ Some ideas:
 
 [![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
-Watch any vintage sci-fi show you will get lots of ideas. The more nostalgic, cool and nerdy the better.
+Watch any vintage (pre 1985) sci-fi show  or movie  you will get lots of ideas. The more nostalgic, cool and nerdy the better.
 
-Check out this video of people going crazy (including myself) for the Knight Rider car:
+Check out this video of people going crazy (including myself) for the Knight Rider car :-):
 
 ![Knight Rider](https://photos.app.goo.gl/gqpCMHJu5SNbWjj89)
 
-Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md).
+You will manage your project in a github repo, making documented commits as you make progress and include a detailed readme.md in your git repo along with your project. Here is [a template](assignmentreadme.md) you can use for your readme. Also you can use this [gitignore file](.gitignore). Here is [a tutorial on using git](gitlab.md) if you need to brush up!
 
 # Due dates:
 - Week 8 - Proposal & git repo - [Submit proposal here](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u)
@@ -58,7 +58,7 @@ Please include a detailed readme.md in your git repo. Here is [a template](assig
  
  | Grade | Complexity |
  |-------|------------|
- | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the system. A complex algorithm such as a generative system. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code will be separated into appropriate methods and classes, following SOLID principles. Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
+ | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the system. A complex algorithm such as a generative system. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code will be separated into appropriate methods and classes, following [SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
  | 2.1 | 10-15 hours work. A less complex system that has some simple interactivity. 2 or 3 new MonoBehaviors required to implement the system. No gizmos. Long methods. Around 100 lines of C#. Using some of the techniques we learned on the course such as manipulating the transform. Working on PC, not VR. |
  | 2.2 | 5-10 hours work. A simple system with a script or two based on modifying the transform or something very basic implemented like a spiral or a simple voxel world. Or most of the functionality is derived from tutorials with little customization or understanding. Little interactivity. Works in Unity editor, but not tested as a build or on device. No use of other Unity systems. Random colors. No audio or inappropriate audio. |
  | Pass | < 5 hours work. A single C# script or all from a tutorial. Compiles and runs |

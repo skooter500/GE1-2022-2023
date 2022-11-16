@@ -19,11 +19,13 @@
 - [Slides on quaternions](https://drive.google.com/file/d/11-KFbodaAl9dRSs9ljzdDyTDp1QWWnsZ/view?usp=sharing)
 - [Vectors in Unity](https://docs.unity3d.com/Manual/UnderstandingVectorArithmetic.html)
 - [Video of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeD7K_m64VpDiZVGsJUM-lkBE7p4x1P-5PTCHFfo2FEjcg?e=eX5wJq)
+
+My popular Quaternions in Unity Video:
+
+
 [![YouTube](http://img.youtube.com/vi/IXySkVFNhdk/0.jpg)](http://www.youtube.com/watch?v=IXySkVFNhdk)
 
-Quaternions in Unity:
-
-An ode to Quaternions:
+An ode to Quaternions
 
 A quaternion is like a vector, but with a "w"
 
