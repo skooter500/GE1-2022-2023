@@ -5,7 +5,7 @@
 
 ## The Brief 
 
-Use Unity or a Game Engine of your choice to create an interactive hologram of a cool thing inspired by devices and technology from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Knight Rider.  
+Create an interactive hologram of a cool device from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Knight Rider.  
 
 Some ideas:
 
