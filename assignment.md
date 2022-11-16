@@ -43,7 +43,7 @@ Check out this video of people going crazy (including myself) for the Knight Rid
 
 You will manage your project in a github repo, making documented commits as you make progress and include a detailed readme.md in your git repo along with your project. Here is [a template](assignmentreadme.md) you can use for your readme. Also you can use this [gitignore file](.gitignore). Here is [a tutorial on using git](gitlab.md) if you need to brush up!
 
-For Computer Science students this is an individual project. For Game Design students, you can work solo or on a team of up to three people. You can model your device using ProBuilder directly in Unity or use Blender. You should write scripts in C# to interact with the device.
+For Computer Science students this is an individual project. For Game Design students, you can work solo or on a team of up to three people. You can model your device using ProBuilder directly in Unity or use Blender. You should write scripts in C# to interact with the device. We have lots of VR headsets you guys can use to test your holograms with. 
 
 # Due dates:
 - Week 8 - Proposal & git repo - [Submit proposal here](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u)
