@@ -12,9 +12,9 @@ Your task is to create a hologram of an appliance or artwork from a futuristic h
 - An abstract audio responsive artwork
 - An octopus in a tank
 - A futuristic machine with lots of lights and moving parts
- 
-Here are some retro vintage sci-fi references you can Google 
 
+You can use [ProBuilder](https://unity.com/features/probuilder) or Blender to make your models, or like me, create everything from primitives. We will deploy the holograms to the Quest. You can use any of built in stuff in Unity, such as particle effects, shaders, sound, the animation system and C# scripts. Your hologram should move or have some sort of behaviour or interaction. You can use source code and assets from other projects, but you must reference these in your documentation (see here for a template).
+ 
 Some ideas:
 
 - This thing for holding the Medusan Ambassador:
@@ -29,30 +29,7 @@ Some ideas:
 
 [![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
-Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
-
-- A detailed description of what your assignment does and how it works
-- Which parts of the assignment you developed yourself vs parts that come from the examples we made on the course or that come from tutorials
-- What you are most proud of about the assignment 
-- Instructions for building and running (if necessary)
-- Include an embedded youtube video of the assignment in the readme.md and also submit the Youtube video link in the submission form. If you are on Windows 10 you can press Windows Key, Alt and R to take a video. [This is how you can capture videos if you are on a Mac](https://www.cnbc.com/2018/05/20/how-to-record-the-screen-on-my-mac.html). Also you can use [OBS](https://obsproject.com/).
-- Make your video from a BUILD not the Unity Editor
-This is an example of how you can embed a youtube video in a markdown file:
-
-```
-[![YouTube](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-```
-
-For example, this URL: 
-
-https://www.youtube.com/watch?v=ii049d7UFrg
-
-Becomes:
-
-```
-[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
-
-```
+Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md)
 
 # Due dates:
 - Week 5 - Proposal & git repo
@@ -62,19 +39,24 @@ Becomes:
  
  # Marking Scheme
  
- | Category |  %|
+ | Category | 1 | 2.1 | 2.2 | Pass | Fail | %|
  |----------|---|
- | Complexity | 30% |
- | Polish     | 30% |
- | Code design| 30% |
- | Jazz       | 10% | 
+ | Complexity | Around 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the system. A complex algorithm such as a generative system. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code will be separated into appropriate methods and classes, following SOLID principles. Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. | Around 10 hours work. A less complex system that has some simple interactivity. 2 or 3 new MonoBehaviors required to implement the system. No gizmos. Long methods. Around 100 lines of C#. Using some of the techniques we learned on the course such as manipulating the transform. Working on PC, not VR. | Around 5 hours work. A simple system with a script or two based on modifying the transform. Most of the functionality is derived from tutorials. Little interactivity. Works in Unity editor, but not tested as a build or on device. No use of other Unity systems. | < 5 hours work. A single C# script. Compiles and runs | Doesnt compile or run. No commits | Around 10 commits   |
+ 
+  | 30% |
+ | Groovyness | Project is deployed to the Quest and has great framerate. It looks amazing with a high level of polish on the visuals. Good use of color and form. The object is fully usable in VR and AR. Lots of interactivity and novelty. Use of visual effects such as particle system, post-processing or custom shaders. Has a clear visual style. Models made in Blender. Has great sound effects. Is very cool indeed. Super cool in fact. Special gold star just like Joe 90. | Maybe deployed to the Quest but has some glitches or runs just on PC not in AR. Looks pretty good with decent but simple self made models made in ProBuilder. No visual effects. Maybe a particle system. Sound effects grabbed from online sources. Some simple interactivity and button presses. Less coherent visual style. Good novelty value.  
+ 
+ 
+ | 30% |
+ | Project management | Detailed initial proposal and plan. 30-40 commits. Feature branches. For team projects, an equal distribution of the commits. Commits commented. All sections of the template filled out. Embedded, public, listed youtube video (DO NOT CHECK THIS VIDEO IS MADE FOR KIDS). The video is made from a build, not from the Unity Editor and demonstrates all the features of your project | 30% |
+ | Discretionary mark       | 10% | 
  
  # Rubric
  
  | Grade | Profile |
  |-------|---------|
- | First | You will have spent in excess of 20 hours on the assignment. There will be 80+ git check-ins. Your demo will look impressive and or beautiful and or very novel and cool. A cool looking and fun hologram that is a good example of the theme. Something you would be proud to show off to visitors to your home. A complex implementation. Your system will be exposed to Unity properly via game components, gizmos and editors. It will be of the quality of a €10 asset from the Unity Asset Store |
- | 2.1   | You will have spend 10-16 hours on the assignment with around 30-70 check-ins. For example, long methods here and there without enough granularity. You might not have exposed all the editors and gizmos that your system might benefit from and your system might be not so customisable| 
+ | First | . You have made cool assets in Probuilder or elsewhere and they fit the theme of your assignment very well with appropriate shape and color.  The sound is appropriate. There is a high degree of novelty or nostalgia. There is lots of functionality and interactivity - for example buttons to press, levers to turn, colors changing, movement, animation etc. The project will be managed through a git repo. There will be 40+ git check-ins and feature branches. The readme.md will be detailed and comprehensive and will include all the required elements including an embedded youtube demo made from a build of the project. The six million dollar man loves your hologram. |
+ | 2.1   | You will have spend 10-16 hours on the assignment with around 30-70 check-ins. For example, long methods here and there without enough granularity. | 
  | 2.2   | You will spend around a day on the assignment and will have implemented a simple system based on sine waves or similar. You might have around 30 check-ins or less. Your solutions is one or two game components in complexity. There might be random colours no audio or inappropriate audio. Your system might glitch a bit and would need a fair bit of future work to make it publishable or useful|
  | Pass  | You will spend less than a day on the assignment and get something very basic implemented like a spiral or a simple voxel world. No git use or evidence of many check-ins|
  | Fail  | Nothing works, and no git. Looks like it took a few hours to make | 
