@@ -1,8 +1,24 @@
 # Games Engines 1 Assignment 2022-2023 - The Six Million Dollar Man's Lava Lamp
 
-![images/1411580558_The_six_million_dollar_man_s_Lava_Lamp__retro_vintage_bionics_psychedelic__comic_book_style_.png]()
+![Lava Lamp](images/1411580558_The_six_million_dollar_man_s_Lava_Lamp__retro_vintage_bionics_psychedelic__comic_book_style_.png)
 
-Your task is to create a hologram of a cool thing inspired by vintage sci-fi. Some examples:
+Your task is to create a hologram of a cool thing inspired by vintage sci-fi. 
+
+You can use [ProBuilder](https://unity.com/features/probuilder) or [Blender](https://www.blender.org/) to make your models, or like me, create everything from primitives or procedurally. Another option is to [use AI](https://www.youtube.com/watch?v=ooSW5kcA6gI). We will deploy the holograms to the Quest. You can use any of built in stuff in Unity, such as particle effects, shaders, sound, the animation system and C# scripts. Your hologram should move or have and have behavior and interaction. You can use source code and assets from other projects, but you must reference these in your documentation (see [here](assignmentreadme.md) for a template).
+
+Some ideas:
+
+- This thing for holding the Medusan Ambassador from Star Trek:
+
+[![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
+
+- This cool thing from Joe 90:
+
+[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
+
+- The teleporter from the movie "the Fly"
+
+[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
 - The six million dollar mans lava lamp
 - A self playing guitar or piano
@@ -18,22 +34,6 @@ Your task is to create a hologram of a cool thing inspired by vintage sci-fi. So
 - A giant talking head
 - A futuristic machine with lots of lights and moving parts
 
-You can use [ProBuilder](https://unity.com/features/probuilder) or [Blender](https://www.blender.org/) to make your models, or like me, create everything from primitives or procedurally. Another option is to [use AI](https://www.youtube.com/watch?v=ooSW5kcA6gI). We will deploy the holograms to the Quest. You can use any of built in stuff in Unity, such as particle effects, shaders, sound, the animation system and C# scripts. Your hologram should move or have and have behavior and interaction. You can use source code and assets from other projects, but you must reference these in your documentation (see [here]() for a template).
- 
-Some ideas:
-
-- This thing for holding the Medusan Ambassador:
-
-[![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
-
-- This cool thing from Joe 90:
-
-[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
-
-- The teleporter from the movie "the Fly"
-
-[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
-
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md)
 
 # Due dates:
@@ -47,7 +47,7 @@ Please include a detailed readme.md in your git repo. Here is [a template](assig
 | Complexity | 30% |
 | Groovyness | 30%  |
 | Project management & documentation | 30% |
-| Lecturers discretion | 10% |
+| Lecturer's discretion | 10% |
  
  | Grade | Complexity |
  |-------|------------|
