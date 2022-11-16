@@ -2,7 +2,7 @@
 
 ![Lava Lamp](images/1411580558_The_six_million_dollar_man_s_Lava_Lamp__retro_vintage_bionics_psychedelic__comic_book_style_.png)
 
-Your task is to create a hologram of a cool thing inspired by vintage sci-fi. 
+Your task is to create an interactive hologram of a cool thing inspired by vintage sci-fi. 
 
 You can use [ProBuilder](https://unity.com/features/probuilder) or [Blender](https://www.blender.org/) to make your models, or like me, create everything from primitives or procedurally. Another option is to [use AI](https://www.youtube.com/watch?v=ooSW5kcA6gI). We will deploy the holograms to the Quest. You can use any of built in stuff in Unity, such as particle effects, shaders, sound, the animation system and C# scripts. Your hologram should move or have and have behavior and interaction. You can use source code and assets from other projects, but you must reference these in your documentation (see [here](assignmentreadme.md) for a template).
 
@@ -37,8 +37,8 @@ Some ideas:
 Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md)
 
 # Due dates:
-- Week 8 - Proposal & git repo
-- Week 13 - Final submission & in-class demos
+- Week 8 - Proposal & git repo - [Submit proposal here](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u)
+- Week 13 - Final submission & in-class, in-person demos
  
  # Weighting
 
@@ -47,7 +47,7 @@ Please include a detailed readme.md in your git repo. Here is [a template](assig
 | Complexity | 30% |
 | Groovyness | 30%  |
 | Project management & documentation | 30% |
-| Lecturer's discretion | 10% |
+| Proposal | 10% |
  
  | Grade | Complexity |
  |-------|------------|
