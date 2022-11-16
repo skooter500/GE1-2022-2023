@@ -53,22 +53,12 @@ For Computer Science students this is an individual project. For Game Design stu
 
 | Category | Weighting |
 |-|-|
-| Complexity | 30% |
 | Groovyness | 30%  |
+| Complexity | 30% |
 | Project management & documentation | 30% |
 | Proposal | 10% |
 
 # Rubric
- 
- ## Complexity - Coding, maths, algorithm and system design 
-
- | Grade | Indicative features |
- |-------|------------|
- | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the system. A complex algorithm such as a generative system. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code will be separated into appropriate methods and classes, following [SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
- | 2.1 | 10-15 hours work. A less complex system that has some simple interactivity. 2 or 3 new MonoBehaviors required to implement the system. No gizmos. Long methods. Around 100 lines of C#. Using some of the techniques we learned on the course such as manipulating the transform. Working on PC, not VR. |
- | 2.2 | 5-10 hours work. A simple system with a script or two based on modifying the transform or something very basic implemented like a spiral or a simple voxel world. Or most of the functionality is derived from tutorials with little customization or understanding. Little interactivity. Works in Unity editor, but not tested as a build or on device. No use of other Unity systems. Random colors. No audio or inappropriate audio. |
- | Pass | < 5 hours work. A single C# script or all from a tutorial. Compiles and runs |
-| Fail | No submission or nothing works |
 
 ## Groovyness - Visuals & sound, Quality of outcome
 
@@ -79,6 +69,16 @@ For Computer Science students this is an individual project. For Game Design stu
 | 2.2 |  One or two simple models made in ProBuilder or imported from online sources. No interactivity, just an animated visual. Running in the Unity editor. Little or no sound |
 | Pass | Model from online source or primitive that does not do anything |
 | Fail | Does not compile or little or no content |
+ 
+ ## Complexity - Coding, maths, algorithm and system design 
+
+ | Grade | Indicative features |
+ |-------|------------|
+ | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the functionality of the hologram. A complex algorithm such as a generative system used to generate the effect. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code separated into appropriate methods and classes, following [SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
+ | 2.1 | 10-15 hours work. A less complex system that has interactivity. Several self written MonoBehaviors with other code included from tutorials and online sources. No gizmos. Long methods. Around 100 lines of self written C#, using some of the techniques we learned on the course such as manipulating the transform. Working on PC, maybe not VR. |
+ | 2.2 | 5-10 hours work. A simple system with a script or two based on modifying the transform or something very basic implemented like a spiral or a simple voxel world. Or most of the functionality is derived from tutorials with little customization or understanding. Little interactivity. Works in Unity editor, but not tested as a build or on device. No use of other Unity systems. Random colors. No audio or inappropriate audio. |
+ | Pass | < 5 hours work. A single C# script or all from a tutorial. Compiles and runs |
+| Fail | No submission or nothing works |
 
 
 ## Project Management & Documentation
