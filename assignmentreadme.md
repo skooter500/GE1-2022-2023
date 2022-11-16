@@ -6,13 +6,18 @@ Student Number:
 
 Class Group:
 
+Video:
+
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
 # Description of the project
 
 # Instructions for use
 
+
 # How it works
 
-# List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
+# List of classes/assets in the project
 
 | Class/asset | Source |
 |-----------|-----------|
@@ -21,8 +26,12 @@ Class Group:
 | MyClass2.cs | From [reference]() |
 
 # References
+* Item 1
+* Item 2
 
 # What I am most proud of in the assignment
+
+# What I learned
 
 # Proposal submitted earlier can go here:
 
