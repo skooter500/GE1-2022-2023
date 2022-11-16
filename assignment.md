@@ -62,7 +62,7 @@ For Computer Science students this is an individual project. For Game Design stu
 
 ## Groovyness - Visuals & sound, Quality of outcome
 
-| Grade | Indicative Features |
+| Grade | Indicative Aspects |
 |-------|------------|
 | 1     | Project is deployed to the Quest and has great framerate. It looks amazing with a high level of polish on the visuals. Great use of color and form. The object is fully usable in VR and AR. There is lots of functionality and interactivity - for example buttons to press, levers to turn, colors changing, movement, animation etc. Lots of novelty and nostalgia. Use of visual effects such as particle system, post-processing or custom shaders to enhance visual quality. Has a clear visual style. Has great sound effects. Is very cool indeed. Super cool in fact. Special gold star just like Joe 90. |
 | 2.1 | Maybe deployed to the Quest but has some glitches or runs just on PC not in AR. Looks pretty good with decent but simple self made models made in ProBuilder or Blender. No visual effects. Maybe a particle system. Sound effects grabbed from online sources. Some simple interactivity and button presses. Less coherent visual style. Good novelty value. |
@@ -72,7 +72,7 @@ For Computer Science students this is an individual project. For Game Design stu
  
  ## Complexity - Coding, maths, algorithm and system design 
 
- | Grade | Indicative features |
+ | Grade | Indicative Aspects |
  |-------|------------|
  | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the functionality of the hologram. A complex algorithm such as a generative system used to generate the effect. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code separated into appropriate methods and classes, following [SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
  | 2.1 | 10-15 hours work. A less complex system that has interactivity. Several self written MonoBehaviors with other code included from tutorials and online sources. No gizmos. Long methods. Around 100 lines of self written C#, using some of the techniques we learned on the course such as manipulating the transform. Working on PC, maybe not VR. |
@@ -83,7 +83,7 @@ For Computer Science students this is an individual project. For Game Design stu
 
 ## Project Management & Documentation
 
-| Grade | Indicative Features  |
+| Grade | Indicative Aspects  |
 |-------|------|
 | 1 |  Detailed initial proposal and plan. 30-40 commits. Feature branches. For team projects, an equal distribution of the commits. Commits all commented. All sections of the template filled out. Document includes reflective elements - What did I learn? Sources properly referenced. Embedded, public, listed youtube video (DO NOT CHECK THIS VIDEO IS MADE FOR KIDS). The video is made from a build, not from the Unity Editor and demonstrates all the features of your project |
 | 2.1 | 20-30 commits. One or two branches. All sections of the template filled out. Sources properly referenced. Issues with the video. 
