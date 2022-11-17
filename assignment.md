@@ -1,6 +1,13 @@
-# Games Engines 1 Assignment 2022-2023 - The Six Million Dollar Man's Lava Lamp
+# Games Engines 1 Assignment 2022-2023 
+## The Six Million Dollar Man's Lava Lamp
 
-Your task is to create a hologram of an appliance or artwork from a futuristic home of the future as imagined from 1970's sci-fi. Some examples:
+![Lava Lamp](images/1411580558_The_six_million_dollar_man_s_Lava_Lamp__retro_vintage_bionics_psychedelic__comic_book_style_.png)
+
+## The Brief 
+
+Create an interactive hologram of a cool device from vintage sci-fi, such as Star Trek, the Six Million Dollar Man, Space 1999, 2001: A Space Odyssey, Knight Rider, Thunderbirds, Flash Gordon, Back to the Future etc. etc. Anything from 60's 70's and early 80's. 
+
+Some ideas:
 
 - The six million dollar mans lava lamp
 - A self playing guitar or piano
@@ -11,93 +18,87 @@ Your task is to create a hologram of an appliance or artwork from a futuristic h
 - AN R2D2 type robot
 - An abstract audio responsive artwork
 - An octopus in a tank
+- A transporter
+- A futuristic kitchen appliance
+- A giant talking head
 - A futuristic machine with lots of lights and moving parts
- 
-Here are some retro vintage sci-fi references you can Google 
 
-- Space 1999
-- The Starlost
-- Star Trek
+- This thing for holding the Medusan Ambassador from Star Trek:
 
+[![YouTube](http://img.youtube.com/vi/Ljhqz6pF_Uo/0.jpg)](https://www.youtube.com/watch?v=Ljhqz6pF_Uo)
 
-Please include a detailed readme.md in your git repo. Here is [a template](assignmentreadme.md). In order to help me grade the assignments include in your readme:
+- This cool thing from Joe 90:
 
-- A detailed description of what your assignment does and how it works
-- Which parts of the assignmemnt you developed yourself vs parts that come from the examples we made on the course or that come from tutorials
-- What you are most proud of about the assignment 
-- Instructions for building and running (if necessary)
-- Include an embedded youtube video of the assignment in the readme.md and also submit the Youtube video link in the submission form. If you are on Windows 10 you can press Windows Key, Alt and R to take a video. [This is how you can capture videos if you are on a Mac](https://www.cnbc.com/2018/05/20/how-to-record-the-screen-on-my-mac.html). Also you can use [OBS](https://obsproject.com/).
+[![YouTube](http://img.youtube.com/vi/oaINLn4OKGE/0.jpg)](https://www.youtube.com/watch?v=oaINLn4OKGE)
 
-This is an example of how you can embed a youtube video in a markdown file:
+- The teleporter from the movie "the Fly"
 
-```
-[![YouTube](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-```
+[![YouTube](http://img.youtube.com/vi/sTq2Im2YUOk/0.jpg)](https://www.youtube.com/watch?v=sTq2Im2YUOk)
 
-For example, this URL: 
+Watch any vintage (pre 1985) sci-fi show  or movie  you will get lots of ideas. The more nostalgic, cool and nerdy the better.
 
-https://www.youtube.com/watch?v=ii049d7UFrg
+Check out this video of people going crazy (including myself) for the Knight Rider car :-):
 
-Becomes:
+- [Knight Rider](https://photos.app.goo.gl/gqpCMHJu5SNbWjj89)
 
-```
-[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+You will manage your project in a github repo, making documented commits as you make progress and include a detailed readme.md in your git repo along with your project. Here is [a template](assignmentreadme.md) you can use for your readme. Also you can use this [gitignore file](.gitignore). Here is [a tutorial on using git](gitlab.md) if you need to brush up!
 
-```
+For Computer Science students this is an individual project. For Game Design students, you can work solo or on a team of up to three people. You can model your device using ProBuilder directly in Unity or use Blender. You should write scripts in C# to interact with the device. We have lots of VR headsets you guys can use to test your holograms on. 
 
 # Due dates:
-- Week 5 - Proposal & git repo
-- Week 11 - Final submission & in-class demos
-
-## Assignment brief
-
-Its the future as imagined from 1978. The "six million dollar man", astronaut Steve Austin is hanging out with the bionic woman and Rex the bionic dog in his sci-fi home of the future. Around him are robots, holograms, talking computers with personalities and other cool sci-fi technology.
-
-Your task is to develop a cool sci-fi holographic ornament/lamp for the home of Steve Austin. It should be something groovy that Steve and his friends from other sci-fi TV' programs of the 1970's can enjoy while hanging out and listening to music together on beanbags. 
-
-[2020-2021 Assignment playlist](https://www.youtube.com/watch?v=MXm9OmzRe2o&list=PL1n0B6z4e_E5qaYwUOlJ63XI2OR9ty7Bs)
-
-[2019-2020 Assignment playlist](https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X)
-
-
-Also check out the [Procedural generation reddit forum](https://www.reddit.com/r/proceduralgeneration/)
-
-Here are some ideas but please don't limit yourself to these! I would prefer you to come up with your own:
-
- - A Perlin noise flow field "flocking" simulation
- - Marching cubes cave simulation
- - A Procedural Minecraft style voxel world, with Mountains and rivers and lakes, coloured and rendered appropriately
- - Use the Physics engine in Unity to make a Procedural creature, Robot or Machine
- - A Procedural planet
- - Use the Mechanim system in Unity to rig and animate an animal or robot character and control the animations with a state machine
- - A geometric structure based on Fractals, noise or mathematical functions such as sine waves etc
- - An infinite terrain or building
- - A procedural city generator
- - Procedural trees or forests
- - Something Kinect or Leap motion controlled. Or use a custom controller that you make yourself  
- - A simulation of a natural or biological system
- - A network simulation
- - Animate some system using mathematical functions 
- - Something controlled by music or sound
+- Week 8 - Proposal & git repo - [Submit proposal here](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u)
+- Week 13 - Final submission & in-class, in-person demos
  
- You should use good OO practices aligned with the GameObject/Component model that Unity uses. In other words, use inheritance, polymorphism, abstract classes and interfaces to implement game components. It should be easy for someone to customise your creation and you should expose sliders and controls and display appropriate gizmos. 
+ # Weighting
+
+| Category | Weighting |
+|-|-|
+| Groovyness | 30%  |
+| Complexity | 30% |
+| Project management & documentation | 30% |
+| Proposal | 10% |
+
+# Rubric
+
+## Groovyness - Visuals & sound, Quality of outcome
+
+| Grade | Indicative Aspects |
+|-------|------------|
+| 1     | Project is deployed to the Quest and has great framerate. It looks amazing with a high level of polish on the visuals. Great use of color and form. The object is fully usable in VR and AR. There is lots of functionality and interactivity - for example buttons to press, levers to turn, colors changing, movement, animation etc. Lots of novelty and nostalgia. Use of visual effects such as particle system, post-processing or custom shaders to enhance visual quality. Has a clear visual style. Has great sound effects. Is very cool indeed. Super cool in fact. Special gold star just like Joe 90. |
+| 2.1 | Maybe deployed to the Quest but has some glitches or runs just on PC not in AR. Looks pretty good with decent but simple self made models made in ProBuilder or Blender. No visual effects. Maybe a particle system. Sound effects grabbed from online sources. Some simple interactivity and button presses. Less coherent visual style. Good novelty value. |
+| 2.2 |  One or two simple models made in ProBuilder or imported from online sources. No interactivity, just an animated visual. Running in the Unity editor. Little or no sound |
+| Pass | Model from online source or primitive that does not do anything |
+| Fail | Does not compile or little or no content |
  
- # Marking Scheme
- 
- | Category |  %|
- |----------|---|
- | Complexity | 30% |
- | Polish     | 30% |
- | Code design| 30% |
- | Jazz       | 10% | 
- 
- # Rubric
- 
- | Grade | Profile |
- |-------|---------|
- | First | You will have spent in excess of 20 hours on the assignment. There will be 80+ git check-ins. Your demo will look impressive and or beautiful and or very novel or cool. The demo should be technically impressive and you will have used some complex maths, algorithms, challenging API's or demonstrate some deep knowledge of Unity in your solution. Your system will be exposed to Unity properly via game components, gizmos and editors. It should be easy for someone to customise. It will be of the quality of a €10 asset from the Unity Asset Store |
- | 2.1   | You will have spend 10-16 hours on the assignment with around 30-70 check-ins. You will have implemented a moderately complex system which relies somewhat on Unity stuff like the animation system, trail renderers or particle systems to be impressive. In other words its got a bit more emphasis on stuff thats built into Unity rather than what you made. Nevertheless you should have implemented some complex system. You might have made some game components and classes, but your solution might have always used best practices and design patterns. For example, long methods here and there without enough granularity. You might not have exposed all the editors and gizmos that your system might benefit from and your system might be not so customisable| 
- | 2.2   | You will spend around a day on the assignment and will have implemented a simple system based on sine waves or similar. You might have around 30 check-ins or less. Your solutions is one or two game components in complexity. There might be random colours no audio or inappropriate audio. Your system might glitch a bit and would need a fair bit of future work to make it publishable or useful|
- | Pass  | You will spend less than a day on the assignment and get something very basic implemented like a spiral or a simple voxel world. No git use or evidence of many check-ins|
- | Fail  | Nothing works, and no git. Looks like it took a few hours to make | 
- 
+ ## Complexity - Coding, maths, algorithm and system design 
+
+ | Grade | Indicative Aspects |
+ |-------|------------|
+ | 1 | 15-20 hours work. A complex system that has lots of interactivity. 5 or 6 MonoBehaviors that interact and work together to implement the functionality of the hologram. A complex algorithm such as a generative system used to generate the effect. Several hundred lines of self written C# code. Nice gizmos on all the MonoBehaviors and ranges on public fields, where appropriate. Code separated into appropriate methods and classes, following [SOLID principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design). Code demonstrates techniques we have learned on the course including: coroutines, transforms, vectors, quaternions, physics, lerping and slerping, sound. Advanced use (such as scripting) of Unity systems including animation, shaders, particle systems. Deployed and demoed on the quest or in AR on a phone. |
+ | 2.1 | 10-15 hours work. A less complex system that has interactivity. Several self written MonoBehaviors with other code included from tutorials and online sources. No gizmos. Long methods. Around 100 lines of self written C#, using some of the techniques we learned on the course such as manipulating the transform. Working on PC, maybe not VR. |
+ | 2.2 | 5-10 hours work. A simple system with a script or two based on modifying the transform or something very basic implemented like a spiral or a simple voxel world. Or most of the functionality is derived from tutorials with little customization or understanding. Little interactivity. Works in Unity editor, but not tested as a build or on device. No use of other Unity systems. Random colors. No audio or inappropriate audio. |
+ | Pass | < 5 hours work. A single C# script or all from a tutorial. Compiles and runs |
+| Fail | No submission or nothing works |
+
+
+## Project Management & Documentation
+
+| Grade | Indicative Aspects  |
+|-------|------|
+| 1 |  Detailed initial proposal and plan. 30-40 commits. Feature branches. For team projects, an equal distribution of the commits. Commits all commented. All sections of the template filled out. Document includes reflective elements - What did I learn? Sources properly referenced. Embedded, public, listed youtube video (DO NOT CHECK THIS VIDEO IS MADE FOR KIDS). The video is made from a build, not from the Unity Editor and demonstrates all the features of your project |
+| 2.1 | 20-30 commits. One or two branches. All sections of the template filled out. Sources properly referenced. Issues with the video. 
+| 2.2 |10-20 commits, terse or no comments. No branches. Documentation incomplete, Evidence of reflective learning missing. missing references. Issues with the video |
+| Pass | < 10 commits. terse or no comments. No branches. Documentation incomplete. No video |
+
+Examples from previous years:
+- [https://youtube.com/playlist?list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN](2020-2021)
+- [https://youtube.com/playlist?list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X](2019-2020)
+- [https://youtube.com/playlist?list=PL1n0B6z4e_E5qaYwUOlJ63XI2OR9ty7Bs](2018-2019)
+
+The [interm submission](https://forms.office.com/Pages/ResponsePage.aspx?id=yxdjdkjpX06M7Nq8ji_V2ou3qmFXqEdGlmiD1Myl3gNUQlhURzM4MzFWSTdDTDlERFdZTkw2UThQTS4u) is ungraded and you will get the full 10% if you include the following:
+
+- A git repo with a Unity project. You can [fork this repo](https://github.com/skooter500/GE1-2022-2023/).
+- A project scene
+- A readme file following this template
+- A cool idea documented in the readme file
+- A few sentences about how you plan to implement it 
