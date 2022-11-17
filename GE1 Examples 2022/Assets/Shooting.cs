@@ -29,19 +29,6 @@ public class Shooting : MonoBehaviour
 
     bool shooting = false;
 
-    System.Collections.IEnumerator ShootingCoroutine()
-    {
-        while(true)
-        {
-            if (Input.GetButton("Fire1"))
-            {
-                Shoot();
-                yield return new WaitForSeconds(1.0f / fireRate);
-            }
-            yield return null;
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
