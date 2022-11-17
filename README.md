@@ -4,6 +4,7 @@
 
 ## Resources
 - [World Videophone](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWNkOTU5MWMtZGRkYi00ZDIxLWI3NzAtZjFjMjc3Y2NiMmVl%40thread.v2/0?context=%7b%22Tid%22%3a%22766317cb-e948-4e5f-8cec-dabc8e2fd5da%22%2c%22Oid%22%3a%2261aab78b-a857-4647-9668-83d4cca5de03%22%7d)
+- [Download Unity](https://unity3d.com/unity/whats-new/2022.1.14)
 - [Course Notes (out of date!)](https://drive.google.com/open?id=1CeMUWjCUa1Ere2fMmtLz5TCL4O136mxj)
 - [Assignment](assignment.md)
 - [Unity Quick Reference](unityref.md)
@@ -13,6 +14,91 @@
 ## Contact me
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
+
+## Week 7 - Quaternions
+- [Slides on quaternions](https://drive.google.com/file/d/11-KFbodaAl9dRSs9ljzdDyTDp1QWWnsZ/view?usp=sharing)
+- [Vectors in Unity](https://docs.unity3d.com/Manual/UnderstandingVectorArithmetic.html)
+- [Video of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeD7K_m64VpDiZVGsJUM-lkBE7p4x1P-5PTCHFfo2FEjcg?e=eX5wJq)
+
+My popular Quaternions in Unity Video:
+
+
+[![YouTube](http://img.youtube.com/vi/IXySkVFNhdk/0.jpg)](http://www.youtube.com/watch?v=IXySkVFNhdk)
+
+An ode to Quaternions
+
+A quaternion is like a vector, but with a "w"
+
+To construct one, use an axis and an angle, that's what we do
+
+For rotations it must be normal, or otherwise its pure
+
+So we normalise, divide by length, just to be sure
+
+To invert a normal quaternion, we negate x, y and z
+
+Multiply quaternion, vector, inverse quaternion and it rotates don't you see
+
+A rotation of 0 radians is the same as two pi
+
+To convert a quaternion to a matrix, we use the API
+
+So here's a health to old Hamilton, your inventor it would appear
+
+And to imaginary numbers floating in the hypersphere
+
+- Dr Bryan Duggan
+
+## Lab
+
+Today lets make this system:
+
+[![YouTube](http://img.youtube.com/vi/utJ5uUouxuA/0.jpg)](http://www.youtube.com/watch?v=utJ5uUouxuA)
+
+The system is a turret AI system for a game such as a tower defence game. In the video below, the red "tower" will turn to face the players tank and start shooting as soon as the player comes in range. To create this system:
+
+- Make the turret from two cubes and set a spawn point for bullets on the turret
+- Add a TurretController component to the turret. Add fields for rotationSpeed and fireRate (and any others you might need)
+- Use a SphereCollider on the turret and set isTrigger to be true
+- Override OnTriggerEnter and OnTriggerStay to detect the player
+- Use quaternions to rotate the turret
+- Use a co-routine to shoot multiple times per second
+
+## Week 6 - Coroutines & colliders
+
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERufxBuE88VGscScnzHgW14Bv9a62oR_LFbY2rxpVmpj5w?e=1HhpRE)
+
+## Lab
+
+Update your fork and create a branch called lab6
+
+Lets make this:
+
+[![YouTube](http://img.youtube.com/vi/HJP7AO8pCyM/0.jpg)](http://www.youtube.com/watch?v=HJP7AO8pCyM)
+
+What is happening:
+
+- The green tank is the player. The blue tanks are the "enemies"
+- Enemies spawn at a rate of 1 enemy per second
+- Enemies fall from the sky and land on the ground
+- There are a maximum of 5 enemies at any time
+- When the player hits an enemy it "explodes" (all the parts break apart)
+- To implement this you will have to do a few things:
+- Iterate over all the child transforms to get access to the turret using:
+
+    ```foreach (Transform t in this.GetComponentsInChildren<Transform>())
+    ```
+- You could also use ```transform.getChild(0)```
+- Add a rigidbody to the turret
+- Set the useGravity and isKinematic fields on the rigidbody appropriately
+- Add a random velocity 
+- After 4 seconds, the parts sink into the ground. You can disable the collider on and set drag to be 1
+- After seven seconds, it gets removed from the scene
+
+## Week 5 Input & movement
+- [Input System](https://youtu.be/m5WsmlEOFiA)
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EeWPspFN9UhDiLsrblj0PbwBekugJqnOXmZjXvupEf_y1g?e=40tLsy)
+- [Repo with the code we worked on](https://github.com/skooter500/FormsHolograms)
 
 ## Week 4 Making Holograms
 
