@@ -53,6 +53,60 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pitch Up"",
+                    ""type"": ""Button"",
+                    ""id"": ""896ae8d8-2089-4875-a75d-f906a8e5105c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pitch Down"",
+                    ""type"": ""Button"",
+                    ""id"": ""d8f9163e-9438-491e-a9cb-ea7dade75500"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Yaw Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""37a09a26-9589-406e-993b-37199039db88"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Yaw Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""d62b0210-11e4-4b99-a8eb-92282172771f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Roll Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""bdf930de-a0b4-48d1-96e0-59e8b6cba2b6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Roll Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""b37ad0a5-da5e-48b3-ae92-e1b999868340"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -198,6 +252,72 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                     ""action"": ""Shoot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c0ed45f-9eb8-49a4-ad7d-049fd3d121e5"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pitch Up"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8b76f3d3-d8d7-444e-a199-a3f5996c3283"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pitch Down"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b623127c-8cde-4382-ad27-63b67931b5ae"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Yaw Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""51f9a495-c458-407f-8060-9e6006415b73"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Yaw Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aac14e6b-db3d-42e0-9056-a46289236aa9"",
+                    ""path"": ""<Keyboard>/comma"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Roll Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ba33c925-12a7-4dea-94d7-bd51ac5d31cb"",
+                    ""path"": ""<Keyboard>/period"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Roll Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -209,6 +329,12 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
         m_Ground_Move = m_Ground.FindAction("Move", throwIfNotFound: true);
         m_Ground_Rotate = m_Ground.FindAction("Rotate", throwIfNotFound: true);
         m_Ground_Shoot = m_Ground.FindAction("Shoot", throwIfNotFound: true);
+        m_Ground_PitchUp = m_Ground.FindAction("Pitch Up", throwIfNotFound: true);
+        m_Ground_PitchDown = m_Ground.FindAction("Pitch Down", throwIfNotFound: true);
+        m_Ground_YawLeft = m_Ground.FindAction("Yaw Left", throwIfNotFound: true);
+        m_Ground_YawRight = m_Ground.FindAction("Yaw Right", throwIfNotFound: true);
+        m_Ground_RollLeft = m_Ground.FindAction("Roll Left", throwIfNotFound: true);
+        m_Ground_RollRight = m_Ground.FindAction("Roll Right", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +397,12 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_Ground_Move;
     private readonly InputAction m_Ground_Rotate;
     private readonly InputAction m_Ground_Shoot;
+    private readonly InputAction m_Ground_PitchUp;
+    private readonly InputAction m_Ground_PitchDown;
+    private readonly InputAction m_Ground_YawLeft;
+    private readonly InputAction m_Ground_YawRight;
+    private readonly InputAction m_Ground_RollLeft;
+    private readonly InputAction m_Ground_RollRight;
     public struct GroundActions
     {
         private @TankControls m_Wrapper;
@@ -278,6 +410,12 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Ground_Move;
         public InputAction @Rotate => m_Wrapper.m_Ground_Rotate;
         public InputAction @Shoot => m_Wrapper.m_Ground_Shoot;
+        public InputAction @PitchUp => m_Wrapper.m_Ground_PitchUp;
+        public InputAction @PitchDown => m_Wrapper.m_Ground_PitchDown;
+        public InputAction @YawLeft => m_Wrapper.m_Ground_YawLeft;
+        public InputAction @YawRight => m_Wrapper.m_Ground_YawRight;
+        public InputAction @RollLeft => m_Wrapper.m_Ground_RollLeft;
+        public InputAction @RollRight => m_Wrapper.m_Ground_RollRight;
         public InputActionMap Get() { return m_Wrapper.m_Ground; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -296,6 +434,24 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                 @Shoot.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
                 @Shoot.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
                 @Shoot.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnShoot;
+                @PitchUp.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchUp;
+                @PitchUp.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchUp;
+                @PitchUp.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchUp;
+                @PitchDown.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchDown;
+                @PitchDown.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchDown;
+                @PitchDown.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnPitchDown;
+                @YawLeft.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawLeft;
+                @YawLeft.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawLeft;
+                @YawLeft.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawLeft;
+                @YawRight.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawRight;
+                @YawRight.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawRight;
+                @YawRight.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnYawRight;
+                @RollLeft.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollLeft;
+                @RollLeft.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollLeft;
+                @RollLeft.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollLeft;
+                @RollRight.started -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollRight;
+                @RollRight.performed -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollRight;
+                @RollRight.canceled -= m_Wrapper.m_GroundActionsCallbackInterface.OnRollRight;
             }
             m_Wrapper.m_GroundActionsCallbackInterface = instance;
             if (instance != null)
@@ -309,6 +465,24 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
                 @Shoot.started += instance.OnShoot;
                 @Shoot.performed += instance.OnShoot;
                 @Shoot.canceled += instance.OnShoot;
+                @PitchUp.started += instance.OnPitchUp;
+                @PitchUp.performed += instance.OnPitchUp;
+                @PitchUp.canceled += instance.OnPitchUp;
+                @PitchDown.started += instance.OnPitchDown;
+                @PitchDown.performed += instance.OnPitchDown;
+                @PitchDown.canceled += instance.OnPitchDown;
+                @YawLeft.started += instance.OnYawLeft;
+                @YawLeft.performed += instance.OnYawLeft;
+                @YawLeft.canceled += instance.OnYawLeft;
+                @YawRight.started += instance.OnYawRight;
+                @YawRight.performed += instance.OnYawRight;
+                @YawRight.canceled += instance.OnYawRight;
+                @RollLeft.started += instance.OnRollLeft;
+                @RollLeft.performed += instance.OnRollLeft;
+                @RollLeft.canceled += instance.OnRollLeft;
+                @RollRight.started += instance.OnRollRight;
+                @RollRight.performed += instance.OnRollRight;
+                @RollRight.canceled += instance.OnRollRight;
             }
         }
     }
@@ -318,5 +492,11 @@ public partial class @TankControls : IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnRotate(InputAction.CallbackContext context);
         void OnShoot(InputAction.CallbackContext context);
+        void OnPitchUp(InputAction.CallbackContext context);
+        void OnPitchDown(InputAction.CallbackContext context);
+        void OnYawLeft(InputAction.CallbackContext context);
+        void OnYawRight(InputAction.CallbackContext context);
+        void OnRollLeft(InputAction.CallbackContext context);
+        void OnRollRight(InputAction.CallbackContext context);
     }
 }

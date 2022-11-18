@@ -282,6 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 5
   height: 10
+  prefab: {fileID: 1813275748986334985, guid: 461bbc5a03457d54b8005d360d012d66, type: 3}
 --- !u!4 &647946835
 Transform:
   m_ObjectHideFlags: 0
@@ -693,6 +694,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 67e3dd01-57dd-447b-a7c9-8780b5f0579c
     m_ActionName: Ground/Shoot[/XInputControllerWindows/leftTrigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 896ae8d8-2089-4875-a75d-f906a8e5105c
+    m_ActionName: Ground/Pitch Up[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d8f9163e-9438-491e-a9cb-ea7dade75500
+    m_ActionName: Ground/Pitch Down[/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 37a09a26-9589-406e-993b-37199039db88
+    m_ActionName: Ground/Yaw Left[/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d62b0210-11e4-4b99-a8eb-92282172771f
+    m_ActionName: Ground/Yaw Right[/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Ground
