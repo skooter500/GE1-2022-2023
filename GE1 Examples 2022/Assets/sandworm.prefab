@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodySegments: 20
-  radius: 10
+  radius: 5
   gravity: 1
   spring: 100
   damper: 50
   force: 100
-  speed: 5
+  speed: 6
   headtail: 4
   current: 0
   moving: 0

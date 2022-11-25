@@ -20,6 +20,11 @@ Join the class on the World Videophone using the following link:
 
 ## Week 9 - Physics 2
 
+## Lab
+- Open up the Physics2 scene from the repo and write code for the methods CreateTower and CreateCar
+
+[![YouTube](http://img.youtube.com/vi/zgCDuOoTKU8/0.jpg)](http://www.youtube.com/watch?v=zgCDuOoTKU8)
+
 ## Week 8 - Physics 1, Probuilder & Assignment stuff
 
 ## Lecture
