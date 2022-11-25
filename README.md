@@ -18,6 +18,8 @@ Join the class on the World Videophone using the following link:
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 9 - Physics 2
+
 ## Week 8 - Physics 1, Probuilder & Assignment stuff
 
 ## Lecture
