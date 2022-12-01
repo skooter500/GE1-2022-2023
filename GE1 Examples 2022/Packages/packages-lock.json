@@ -1,5 +1,35 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.ads": {
+      "version": "3.7.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.analytics": {
+      "version": "3.6.12",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
@@ -33,8 +63,8 @@
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.1.1",
-        "com.unity.test-framework": "1.1.33",
-        "com.unity.testtools.codecoverage": "1.1.1"
+        "com.unity.test-framework": "1.1.31",
+        "com.unity.testtools.codecoverage": "1.0.1"
       }
     },
     "com.unity.ide.rider": {
@@ -85,6 +115,31 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.purchasing": {
+      "version": "4.4.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.services.core": "1.3.1",
+        "com.unity.services.analytics": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.analytics": {
+      "version": "4.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.4.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.services.core": {
       "version": "1.4.3",
       "depth": 1,
@@ -97,7 +152,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
-      "version": "2.0.1",
+      "version": "1.0.3",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
@@ -124,7 +179,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.1.1",
+      "version": "1.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -173,6 +228,11 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.10",
+      "depth": 0,
+=======
     "com.unity.xr.core-utils": {
       "version": "2.0.0",
       "depth": 1,
@@ -200,6 +260,7 @@
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.10",
       "depth": 1,
+>>>>>>> upstream/master
       "source": "registry",
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
@@ -207,6 +268,8 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
+=======
     "com.unity.xr.management": {
       "version": "4.2.1",
       "depth": 0,
@@ -229,6 +292,7 @@
       },
       "url": "https://packages.unity.com"
     },
+>>>>>>> upstream/master
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
