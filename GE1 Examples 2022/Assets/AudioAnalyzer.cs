@@ -41,7 +41,7 @@ public class AudioAnalyzer : MonoBehaviour {
         {
             if (Microphone.devices.Length > 0)
             {
-                selectedDevice = Microphone.devices[0].ToString();
+                selectedDevice = Microphone.devices[1].ToString();
                 a.clip = Microphone.Start(selectedDevice, true, 1, AudioSettings.outputSampleRate);
 
                 a.outputAudioMixerGroup = amgMic;
