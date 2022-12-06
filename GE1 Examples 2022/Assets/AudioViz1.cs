@@ -42,7 +42,7 @@ public class AudioViz1 : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         for (int i = 0; i < elements.Count; i++) {
-            elements[i].transform.localScale = new Vector3(1, 1 + AudioAnalyzer.spectrum[i] * scale, 1);
+            elements[i].transform.localScale = new Vector3(1, 1 + AudioAnalyzer.Instance.spectrum[i] * scale, 1);
         }
 	}
 }

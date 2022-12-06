@@ -16,8 +16,8 @@ public class AudioViz2 : MonoBehaviour {
 
     void CreateVisualisers()
     {
-        float theta = (Mathf.PI * 2.0f) / (float)AudioAnalyzer.bands.Length;
-        for (int i = 0; i < AudioAnalyzer.bands.Length; i++)
+        float theta = (Mathf.PI * 2.0f) / (float)AudioAnalyzer.Instance.bands.Length;
+        for (int i = 0; i < AudioAnalyzer.Instance.bands.Length; i++)
         {
             Vector3 p = new Vector3(
                 Mathf.Sin(theta * i) * radius
@@ -33,7 +33,7 @@ public class AudioViz2 : MonoBehaviour {
             startPositions.Add(p);
             cube.transform.parent = this.transform;
             cube.GetComponent<Renderer>().material.color = Color.HSVToRGB(
-                i / (float)AudioAnalyzer.bands.Length
+                i / (float)AudioAnalyzer.Instance.bands.Length
                 , 1
                 , 1
                 );
@@ -45,7 +45,7 @@ public class AudioViz2 : MonoBehaviour {
     void Update () {
         for (int i = 0; i < elements.Count; i++) {
             Vector3 ls = elements[i].transform.localScale;
-            ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[i] * scale), Time.deltaTime * 3.0f);
+            ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.Instance.bands[i] * scale), Time.deltaTime * 3.0f);
             elements[i].transform.localScale = ls;
             Vector3 pos = startPositions[i];
             pos.y = pos.y - (ls.y / 2);

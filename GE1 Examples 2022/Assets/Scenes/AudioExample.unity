@@ -917,13 +917,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685a99f03d773bb479c880d1564cf21f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useMic: 0
+  useMic: 1
   clip: {fileID: 8300000, guid: 96bc4d7b55fb1f44cbd4843c92f76e71, type: 3}
   amgMic: {fileID: 243875917746723874, guid: 006abfb4d33d03443b46e83f5a891b43, type: 2}
   amgMaster: {fileID: 24300002, guid: 006abfb4d33d03443b46e83f5a891b43, type: 2}
   selectedDevice: 
+  spectrum: []
+  samples: []
+  bands: []
   binWidth: 512
   sampleRate: 0
+  rmsValue: 0
+  dbValue: 0
+  refValue: 0.1
+  threshold: 0.02
+  pitchValue: 0
 --- !u!1 &558478851
 GameObject:
   m_ObjectHideFlags: 0
