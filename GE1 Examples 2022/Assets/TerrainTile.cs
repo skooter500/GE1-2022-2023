@@ -12,7 +12,15 @@ public class TerrainTile : MonoBehaviour {
 
     Mesh m;
 
-  
+    private delegate float SampleCell(float x, float y);
+
+    SampleCell[] sampleCell = {
+              new SampleCell(SampleCell0)
+              
+    };
+
+    public int whichSampler = 0;
+
     Vector2 offset;
     // Use this for initialization
     void Awake() {
@@ -38,10 +46,10 @@ public class TerrainTile : MonoBehaviour {
         {
             for (int col = 0; col < quadsPerTile; col++)
             {
-                Vector3 bl = bottomLeft + new Vector3(col, sampleCell(transform.position.x + col, transform.position.z + row), row);
-                Vector3 tl = bottomLeft + new Vector3(col, sampleCell(transform.position.x + col, transform.position.z + row + 1), row + 1);
-                Vector3 tr = bottomLeft + new Vector3(col + 1, sampleCell(transform.position.x + col + 1, transform.position.z + row + 1), row + 1);
-                Vector3 br = bottomLeft + new Vector3(col + 1, sampleCell(transform.position.x + col + 1, transform.position.z + row), row);
+                Vector3 bl = bottomLeft + new Vector3(col, sampleCell[whichSampler](transform.position.x + col, transform.position.z + row), row);
+                Vector3 tl = bottomLeft + new Vector3(col, sampleCell[whichSampler](transform.position.x + col, transform.position.z + row + 1), row + 1);
+                Vector3 tr = bottomLeft + new Vector3(col + 1, sampleCell[whichSampler](transform.position.x + col + 1, transform.position.z + row + 1), row + 1);
+                Vector3 br = bottomLeft + new Vector3(col + 1, sampleCell[whichSampler](transform.position.x + col + 1, transform.position.z + row), row);
 
                 int startVertex = vertex;
                 vertices[vertex++] = bl;
@@ -85,35 +93,9 @@ public class TerrainTile : MonoBehaviour {
         mr.receiveShadows = true;
 	}
 
-    public float sampleCell(float x, float y)
-    {
-        return sampleCell(x, y, amplitude);
-    }
-
-    public float sampleCell(float x, float y, float amplitude)
-    {
-        float flatness = 0.1f;
-        float noise = Mathf.PerlinNoise(10000 + x / 50, 10000 + y / 50);
-        if (noise > 0.5f + flatness)
-        {
-            noise = noise - flatness;
-        }
-        else if (noise < 0.5f - flatness)
-        {
-            noise = noise + flatness;
-        }
-        else
-        {
-            noise = 0.5f;
-        }
-
-        return (noise * amplitude) + (Mathf.PerlinNoise(1000 + x / 5, 100 + y / 5) * 2);
-    }
-
 
     // SHould really make a new class for all this!
-
-    /*
+    
     // Sample with a sine wave
     public static float SampleCell0(float x, float y)
     {
@@ -122,7 +104,7 @@ public class TerrainTile : MonoBehaviour {
         * Mathf.Sin(Utilities.Map(y, 0, 100, 0, Mathf.PI)) * 40;
     }
 
-    */
+
 
     
     float t = 0;

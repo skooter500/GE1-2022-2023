@@ -18,6 +18,18 @@ Join the class on the World Videophone using the following link:
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 10 - Sound and Audio
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ea2yzaH56f1ArwzD5hXZvKABYbS2-pva2QZtqnLT2TMIxg?e=hikzsf)
+
+## Week 9 - Physics 2- Sandworms, gravity guns, Unity Physics
+- The Metaverse That Can Be Named Is Not The Metaverse
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ERDoWHh9z8BBtHD8cfuCK_cBqJVP60_EWfBgH-TEQeMq5g?e=lOHZh2)
+
+## Lab
+- Open up the Physics2 scene from the repo and write code for the methods CreateTower and CreateCar
+
+[![YouTube](http://img.youtube.com/vi/zgCDuOoTKU8/0.jpg)](http://www.youtube.com/watch?v=zgCDuOoTKU8)
+
 ## Week 8 - Physics 1, Probuilder & Assignment stuff
 
 ## Lecture
