@@ -682,7 +682,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1178152847}
         m_TargetAssemblyTypeName: TankController, Assembly-CSharp
-        m_MethodName: Shoot
+        m_MethodName: Move
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -710,6 +710,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: d62b0210-11e4-4b99-a8eb-92282172771f
     m_ActionName: Ground/Yaw Right[/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bdf930de-a0b4-48d1-96e0-59e8b6cba2b6
+    m_ActionName: Ground/Roll Left[/Keyboard/comma]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b37ad0a5-da5e-48b3-ae92-e1b999868340
+    m_ActionName: Ground/Roll Right[/Keyboard/period]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Ground

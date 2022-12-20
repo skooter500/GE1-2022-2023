@@ -18,6 +18,12 @@ Join the class on the World Videophone using the following link:
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
 
+## Week 12 - Ice Baths for Babies & the exam etc
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/ET5VmEtv09lAseIehi1ZplABoAIXYJDEHqoOkcc99uyDcw?e=09UYLa)
+
+## Week 11 - Meshes & ChatGPT Experiment
+- [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/EV4stuGhMRVFhAoaiaACKdgBTdeKPzceJ2d_0gsBDXOIOg?e=BaAl7u)
+
 ## Week 10 - Sound and Audio
 - [Recording of the class](https://tudublin-my.sharepoint.com/:v:/g/personal/bryan_duggan_tudublin_ie/Ea2yzaH56f1ArwzD5hXZvKABYbS2-pva2QZtqnLT2TMIxg?e=hikzsf)
 
