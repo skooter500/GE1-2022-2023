@@ -1,10 +1,10 @@
 # Project Title
 
-Name:
+Name: Michael Noonan
 
-Student Number: 
+Student Number: C20334611
 
-Class Group:
+Class Group: 20
 
 Video:
 
