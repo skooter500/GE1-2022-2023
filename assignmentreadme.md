@@ -8,7 +8,7 @@ Class Group: DT508
 
 Video:
 
-[![YouTube]()]()
+[![YouTube](http://img.youtube.com/vi/2FH_GQgePbU/1.jpg)](https://www.youtube.com/watch?v=2FH_GQgePbU)
 
 # Description of the project
 
