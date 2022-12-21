@@ -43,11 +43,11 @@ How the project works is, the player can interact with each one of the two heads
 
 # What I am most proud of in the assignment
 
-What I am most proud of in the assignment was using ProBuilder for the first time to construct the giant head GameObjects, which was not an easy task to accomplish. In fact, another thing I am proud of was how the 
+What I am most proud of in the assignment was using ProBuilder for the first time to construct the giant head GameObjects, which was not an easy task to accomplish. In fact, another thing I am proud of was how the dialogue turned out, as it came out as smooth and unique, font-wise, as it is supposed to be. It could have been more impressive, if I was able to animate the mouths of the heads more like actual human mouths, only to find it proved impossible.
 
 # What I learned
 
-I learned how to use ProBuilder to construct my own GameObjects like the giant floating heads, one piece at a time. I also added ProGrids to ensure that the ProBuilder shape I create is constructed more smoothly. I have also learned how to use LeanTween to make transitions for the dialogue from each head.
+I learned how to use ProBuilder to construct my own GameObjects like the giant floating heads, one piece at a time. I also added ProGrids to ensure that the ProBuilder shape I create is constructed more smoothly. I have also learned how to create dialogue and use LeanTween to make transitions for the dialogue from each head.
 
 # Proposal submitted earlier can go here:
 
