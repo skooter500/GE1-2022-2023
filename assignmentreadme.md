@@ -8,11 +8,11 @@ Class Group: 20
 
 Video:
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube]()]()
 
 # Description of the project
 
-This is a simple project that involves interacting and conversing with two floating heads. The left controller interacts with the left floating head, and the right controller interacts with the right floating head. The conversation with one head cannot be interupted until the end, and then the player can interact with the other.
+This is a simple project that involves interacting and conversing with two floating heads. The left controller interacts with the left floating head, and the right controller interacts with the right floating head. The conversation with one head cannot be interupted until the end, and then the player can interact with the other, afterwards.
 
 # Instructions for use
 
@@ -20,7 +20,7 @@ The left and right controllers' grip buttons select the corresponding head and s
 
 # How it works
 
-How the project works is, the player can interact with each one of the two heads, one at a time.
+How the project works is, the player can interact with each one of the two heads, one at a time. The player can witness the head they have chosen speak with their mouths moving, and hear them make unique sounds as the dialogue continues. After the conversation with the first selected head is over, the player can either choose to select the other head for another new conversation, or reselect the first head to restart the first conversation.
 
 # List of classes/assets in the project
 
@@ -33,8 +33,8 @@ How the project works is, the player can interact with each one of the two heads
 | DialogueTrigger.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
 | DialogueTrigger2.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
 | Minecraft.ttf | From [dafont.com](https://www.dafont.com/minecraft.font) |
-| Hhuman_Good_00.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
-| Hhuman_Good_01.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
+| Human_Good_00.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
+| Human_Good_01.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
 
 # References
 * [Coco Code](https://www.youtube.com/c/cococode)
@@ -47,7 +47,7 @@ What I am most proud of in the assignment was
 
 # What I learned
 
-I learned how to use ProBuilder for the first time to construct the giant floating heads, one piece at a time. I have also learned how to use LeanTween to make transitions for the dialogue from each head.
+I learned how to use ProBuilder for the first time to construct the giant floating heads, one piece at a time. I also added ProGrids to ensure that the ProBuilder shape I create is constructed more smoothly. I have also learned how to use LeanTween to make transitions for the dialogue from each head.
 
 # Proposal submitted earlier can go here:
 
