@@ -20,23 +20,34 @@ The left and right controllers' grip buttons select the corresponding head and s
 
 # How it works
 
-How the project works is
+How the project works is, the player can interact with each one of the two heads, one at a time.
 
 # List of classes/assets in the project
 
 | Class/asset | Source |
 |-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| Minecraft.ttf | From [dafont.com]() |
+| FloatingHeadSript.cs | Self written |
+| FloatingHeadSript2.cs | Self written |
+| DialogueManager.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
+| DialogueManager2.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
+| DialogueTrigger.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
+| DialogueTrigger2.cs | Modified from [Coco Code](https://www.youtube.com/watch?v=PswC-HlKZqA) |
+| Minecraft.ttf | From [dafont.com](https://www.dafont.com/minecraft.font) |
+| Hhuman_Good_00.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
+| Hhuman_Good_01.mp3 | From [OpenGameArt.org](https://opengameart.org/content/voices-sound-effects-library) |
 
 # References
-* [Item 1](https://www.dafont.com/minecraft.font)
-* Item 2
+* [Coco Code](https://www.youtube.com/c/cococode)
+* [dafont.com](https://www.dafont.com)
+* [OpenGameArt.org](https://opengameart.org)
 
 # What I am most proud of in the assignment
 
+What I am most proud of in the assignment was
+
 # What I learned
+
+I learned how to use ProBuilder for the first time to construct the giant floating heads, one piece at a time. I have also learned how to use LeanTween to make transitions for the dialogue from each head.
 
 # Proposal submitted earlier can go here:
 
