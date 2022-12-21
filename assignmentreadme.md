@@ -51,6 +51,8 @@ I learned how to use ProBuilder to construct my own GameObjects like the giant f
 
 # Proposal submitted earlier can go here:
 
+https://github.com/MN-Cool/michael-noonan-giant-talking-head
+
 ## This is how to markdown text:
 
 This is *emphasis*
