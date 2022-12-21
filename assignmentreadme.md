@@ -28,10 +28,10 @@ How the project works is
 |-----------|-----------|
 | MyClass.cs | Self written |
 | MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
+| Minecraft.ttf | From [dafont.com]() |
 
 # References
-* Item 1
+* [Item 1](https://www.dafont.com/minecraft.font)
 * Item 2
 
 # What I am most proud of in the assignment
