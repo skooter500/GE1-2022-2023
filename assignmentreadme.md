@@ -12,7 +12,7 @@ Video:
 
 # Description of the project
 
-This is a simple project that involves interacting and conversing with two floating heads. The left controller interacts with the left floating head, and the right controller interacts with the right floating head. The conversation with one head cannot be interupted until the end, and then the player can interact with the other, afterwards.
+This is a simple project that involves interacting and conversing with two floating heads. The left controller interacts with the left floating head, and the right controller interacts with the right floating head. The conversation with one head cannot be interrupted until the end, and then the player can interact with the other, afterwards.
 
 # Instructions for use
 
