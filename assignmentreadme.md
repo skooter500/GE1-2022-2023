@@ -1,4 +1,4 @@
-# Project Title
+# Giant Talking Head
 
 Name: Michael Noonan
 
@@ -12,10 +12,15 @@ Video:
 
 # Description of the project
 
+This is a simple project that involves interacting and conversing with two floating heads. The left controller interacts with the left floating head, and the right controller interacts with the right floating head. The conversation with one head cannot be interupted until the end, and then the player can interact with the other.
+
 # Instructions for use
 
+The left and right controllers' grip buttons select the corresponding head and starts its dialogue. The controllers' trigger buttons continue the conversation taking place from the selected head.
 
 # How it works
+
+How the project works is
 
 # List of classes/assets in the project
 
